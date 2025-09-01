@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>秘密导航-唐诗宋词</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到秘密导航</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于秘密导航</h2>
+<p>秘密导航<p>随着夜幕遮蔽邺城，炊烟初歇，万家灯火在千街百坊间星星点点亮起，如火苗般蔓延至视线的尽头。</p><p>魏王府，世子寝殿。</p><p>季晏清盘腿端在榻间，气沉丹田，照着《冥魂凝魄诀》所记载的法门，运转周身为数不多的灵气。</p><p>自悟性提升至三倍后，原先那些晦涩难懂的古言刹时就变得清晰起来，虽然远称不上易懂，但逐字逐句地读还是能理解的。</p><p>“塑魂凝形，聚魄塑体，三魂幽幽然诡谲，六魄影影然难测，三六成一，证吾神通！”</p><p>语音刚落，外散百米有余的神识骤然凝聚，强劲的气浪迎面袭来。</p><p>透过微微睁开的缝隙，季晏清终于窥见眼前凭空出现的事物，那是一柄剑，准确的说是一柄无无锋无刃的剑。</p><p>《冥魂凝魄诀》第二层境界，指的是能将魂魄凝聚成所谓的“魂器”，从而操纵其作战。</p><p>比起寻常兵刃，魂器有一个无可比拟的优点，它能够穿透所有物理护具，直接攻击活物的魂魄，在需要时亦可凝聚成实体防御，可谓虚实难测。</p><p>但它也有一个缺点，一个致命的缺点：</p><p>“魂器断，人即死。”</p><p>季晏清伸手握住独属他的魂器，仔细察看，发现此剑漆黑如墨，无刃无锋，如同一柄重尺。</p><p>魂魄与人的命数系系相关，按照古籍记载，刀为凶徒之命，枪乃霸主之命……而剑则是王者之命！</p><p>可他手中的这柄剑，一无花纹装饰，二无锐利锋芒，怎么看都是平平无奇的样子。</p><p>但他身份毕竟黄毛反派，没弄对牛角，或者仙女棒出来就已经是谢天谢地了，哪来这么多要求。</p><p>随着心念变动，黑剑瞬间消失得无影无踪，季晏清深吸一气，开始稳固自身境界。</p><p>适才修炼《冥魂凝魄诀》的时候，温热的灵力游走数个大周天，囊括全身经脉，在他体内多年残留积淀的药力开始被身体渐渐吸收。</p><p>虽然吸收的药力只有十分之一，但也足以使季晏清的修为飙升至凝气七层，如果将来能顺利全部吸收的话，境界怕是能达到聚灵巅峰，甚至晖阳。</p><p>若非系统强行提升季晏清那不堪入目的根骨，他这辈子能到凝气巅峰。都要沐浴更衣，拜台祭祀，感谢天道他格外开恩。</p><p>约莫一炷香的时间后，寝殿的门扉忽然被敲响，传来的一阵轻脆灵动的女声：</p><p>“世子殿下。”</p><p>“红鸢，你怎么过来了？”季晏清明知故问道，对方是谢姨的贴身婢女，来他这里几乎没有第二件事。</p><p>“小王爷，夫人她在院里已等候良久，想要您过去看看，顺道过问些事情。”</p><p>季晏清深感不妙，觉着此番说不准会被谢姨活活磨死，但思量再三后，他还是硬着头皮朝谢夫人居住的院落走去。</p><p>世子寝殿离府里的晓春湖不远，沿岸而行，也就不过百步的功夫，若是趁着半夜翻墙而入，估计也没人会发现。</p><p>晚风拂过晓春湖内，远处偏院墙沿挂着的红灯笼随之摇曳。</p><p>季晏清手捧装饰精美的胭脂盒，轻车熟路地从偏门进入院落，在路上趁着四下无人，他用白净的手指粘起稍许，浅尝一口。</p><p>［叮，选项任务已完成，奖励：宿主已获得技能催眠幻术精通。]</p><p>刚踏过院门，哗啦哗啦的流水声传来，两名丫鬟来回走动，手中提着木桶，在清冷的夜中冒出氤氲的雾气。</p><p>季晏清正想转身离去，好避开这尴尬的场景，却忽被红鸢扯住衣袖，听她恭声说道：</p><p>“小王爷，夫人应该在沐浴，请您稍等片刻。”</p><p>“嗯”</p><p>季晏清并拢洁白如雪的双袖，伫立院外，试图摆正他身为后辈该有的心态。</p><p>但很快，红鸢进去通报后，屋内便传出稍显不满的声音：</p><p>“晏清，你进来。”</p><p>世子殿下𣊬间原地懵逼，眼神茫然，望着偏院里泛黄枯萎的草木，脑海里闪过一系列可能。</p><p>谢姨从来都是把我当亲弟弟看的，这很正常。</p><p>正常你妹啊，什么逆天伪骨科剧情！</p><p>若是再这样待着，他肯定要犯错误，先不提季晏清两世为人，心智早已成熟，转生后的世子殿下也快十八，绝对不算小。</p><p>季晏清蹙起眉梢，正想搬出“化理纲常不可废”“男女授受不亲”等圣人之言反驳。</p><p>然而未等他找好借口，谢令婉就严肃地说：</p><p>“快点进来，连姨的话你都不听了！”</p><p>听语气，她似乎一点也不觉得自己的要求荒唐。</p><p>［既然无法抵抗诱惑，那就干脆纵情享受，别再装什么正人君子，大胆去欣赏那绝美的艺术品吧！］</p><p>季晏清低眉颔首，谨小慎微地随着红鸢步入西侧厢房，礼数上不敢再有丝毫差错。</p><p>别误会，他主要是想挑战一下自己的软肋。</p><p>厢房内亮着昏黄的灯光，绣着双鱼戏水的屏风上映出美人的轮廓，妖艳婀娜，凹凸有致，纤腰美腿间极富女性曼妙的曲线美。</p><p>季晏清连忙把头再压低几分，尴尬地笑道：“谢姨，我在外面等候就是了，实在没必要进来。”</p><p>“那怎么行，深秋夜凉，万一冻坏身子怎么办？”</p><p>谢令婉柔声说道，言语间那股似有似无的媚意简直令人癫狂。</p><p>外面是凉，但里面简直比霓虹都还热啊！</p><p>🥵🥵🥵</p><p>季晏清揣度着二十五岁深闺寡妇的心境，试探性地问道：“谢姨叫我过来，是有什么事吗？”</p><p>“今日早些时候你在月桂斋把……那什么少爷的腿给打断了？”</p><p>“我知错。”</p><p>“嗯，那你倒是说说自己究竟错在哪儿？”</p><p>“……是我下手太狠。”</p><p>“大错特错！”谢令婉有些恼火地说道：“恰恰是因为你下手不够狠，我听红鸢说那人经常调戏民女、欺压弱势，换作我是你，他今天就不会活着出月桂斋。”</p><p>“谢姨教训的是，我会努力的。”</p><p>季晏清暗自捏了把冷汗，心想谢姨何时有的这番狠辣劲，以前怎么没发现。</p><p>“哗啦哗啦──”</p><p>两名丫鬟上前帮着更衣，不敢懈怠分毫，随着嘎吱的声响，眼前的屏风缓缓打开。</p><p>刚刚出浴的谢令婉半裹着丝绸薄纱，酥、胸微微露出，墨色青丝沿锁骨垂落，散着蔷薇的幽香，白皙如初雪的美背若隐若现，性感妖娆。</p><br></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

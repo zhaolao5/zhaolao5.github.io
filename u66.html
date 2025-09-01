@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>操操操九九九-极品魅魔</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到操操操九九九</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于操操操九九九</h2>
+<p>操操操九九九<p>斩妖除魔，正义的永恒卫道士。无往不利，黑色的不详死神……</p><p>这座天下对拉尼娅师父的评价有很多，可对来说，这些都太片面，太单薄了。</p><p>依稀记得第一次见到师父时，她还很小。</p><p>北境那里，整年都下雪，那天是个罕见的晴日，太阳很大，雪却不化。</p><p>听闻这片大地上最强的人类要来，拉尼娅一大早就从家族的管控里跑出来，钻入人流，化为簇拥在伊春城主干道两侧围观人群中的渺小一员。</p><p>可惜她当时太小，被人流挤得找不着北，蹦起来连方向都看不清，满眼全是腿，等人群褪去，第一勇者已从伊春城走过，前往雪原猎魔，拉尼娅只能看着空空如也的街道发呆，一直等到傍晚，家族里的人找来把她带回去，拉尼娅也没能看到那位最强的人类。</p><p>后来，家族里的管控更加严格，拉尼娅也没了外出的机会，只能听下人们偶尔闲聊时说，第一勇者在雪原发现传说里“冰雪与烈焰之魔王”的踪迹。</p><p>拉尼娅自幼便喜欢看各种历险故事，对勇者斗恶龙的故事更是有着小孩子独有的痴迷，可惜家族不再给她外出的机会，她也只能翻到院墙上，眺望勇者上次走过的伊春城主道，和雪原的方向。</p><p>“哥哥，雪山的那边会有魔王吗？”年幼的拉尼娅经常会这样问自己亲哥哥，嗯，也是帮她翻院墙的好伙伴。</p><p>“不知道，但雪山里很危险，魔物很多。”哥哥总是一边惊慌的四下张望，一边焦急催促，“妮娅妹妹，你还是快点下来吧。被大人发现就糟了，他们会扒了我的皮的……”</p><p>“哦，哦……好吧。”</p><p>“呼，快点，快点。啊呀，小心别摔了，要是磕到碰到我们还是会被可恶的大人发现，下次我就帮不了你了!”</p><p>记忆里的哥哥，总是一副胆小怕事的模样。</p><p>“那哥哥，你说勇者是不是打败了魔王就会回来？回来的话，他们一定会路过伊春城吧？对吧？!”</p><p>“哎呀，我哪知道。赶紧走，赶紧走!糟糕!那边有佣人过来，他们可会告状了!快点跑!注意别踩到树枝!”</p><p>“欸……”</p><p>刚下院墙，拉尼娅就得和哥哥一起钻狗洞回屋，只有回到屋里，胆小如老鼠的哥哥才能安下心。</p><p>不过，拉尼娅怎么也没想到，自己第一次和师父见面不是在外面，而是在自己家里，那个有着很厚很高院墙的家。</p><p>拉尼娅的父母还有家里的大人，似乎都不欢迎勇者，但勇者还是来了，而且那些大人还笑脸相迎。</p><p>奇怪。</p><p>“妮娅妹妹，这不就是你一直想见的最强勇者吗？走，走，我们去旁边看看，这次大人肯定不会责怪我们!”</p><p>“……”</p><p>“嗯?妮娅妹妹，你怎么不动呀？勇者旁边那位漂亮姐姐可好了，你看，这是她给我的糖，王都的糖。可好吃了，你尝尝?”</p><p>“嗯?好甜……”</p><p>“嘿嘿，妮娅妹妹你还小，不能吃太多。这次就分你一颗，看我我也不给了……”</p><p>年幼的拉尼娅看了看抱着糖果跑远的哥哥，又躲在树丛后悄悄瞧了勇者一眼。</p><p>让她意外的是，勇者不是一个人来她们家做客的，还有其他六个人……</p><p>给糖的漂亮姐姐?</p><p>小拉尼娅细心搜寻，结果一眼就看到距离勇者最近的那位金发金眸的少女。</p><p>那位少女笑吟吟的，似乎正在和勇者谈论什么亲密话题，一边还把手伸进勇者的衣兜里摸索糖果，用来分给其他跑来凑热闹的小孩。</p><p>可惜的是，勇者似乎不怎么爱笑，但也没有阻止金发少女亲昵的动作。</p><p>“……”</p><p>小拉尼娅情不自禁，舔了舔嘴唇，对她这个年龄的小孩来说，好吃的糖果真的很诱人。</p><p>正当拉尼娅蠢蠢欲动时。</p><p>那位巧笑嫣嫣的少女蓦然回首，突然望向她所在的方向，金色的眼瞳犹如煅烧的黄金，红润的嘴唇轻轻张开。</p><p>她在说什么？</p><p>和谁说的?</p><p>不要听，不要听，我不要听!内心的直觉疯狂警告。</p><p>小拉尼娅忽然满心惊慌，头也不回的跑开。</p><p>那时的她从来没有想到过，再次见到第一勇者他们的小队时，自己已经没有了家，还流浪了一段时间。</p><p>也就是在这个时候，她才被大名鼎鼎的第一勇者收为徒弟，唯一的徒弟。</p><p>在后来的教导和更久的接触里，拉尼娅也回过神来，她的老师也许并不像外面宣扬的那样，是个如太阳般无惧黑暗，给人类照亮前路的人。</p><p>老师是比太阳更遥远的星星，他虽不介意给距离很远的人类照亮前路，但他只愿意温暖离他很近的人。</p><p>但是……</p><p>现在。</p><p>拉尼娅总觉得，她的那个师娘第一次见面时对她说的话，其实是对现在的她说的。</p><p>明明她都没听到师娘说了什么!</p><p>不对，就算听到了，这么久的时间也足够模糊童年时代的记忆了!</p><p>“你……你怎么了？”</p><p>“没事吧？”</p><p>花时雨看着对面额头直冒冷汗的拉尼娅，眼睛里除了担忧外，更大的是疑惑。</p><p>“你，你刚才说什么？”拉尼娅捂着额头，脸色难看。</p><p>花时雨愣了愣，眼神里带着八分犹豫两分担心的复述一遍：</p><p>“你没事吧？”</p><p>“上一句!!!”</p><p>“你……你怎么了？”</p><p>“不，不是这句。还要上一句。”</p><p>“那我干脆全给你回忆一遍吧。总之，你押送过来的那只恶毒坏萝莉，很可能掌握两种以上的权能，擅长伪装</p><p>正义值预估在混沌守序附近。了解的东西很多很杂，做事随性，嗯……说不定活得比我久?心态有一种扭曲的奇怪豁达?”</p><p>花时雨顿了顿，继续补充：“而且她现在还让‘全视之眼’心甘情愿的被窃走?很可能已经掌控了我们的动作，但正因如此，我们才可能反过来推导……”</p><p>“也许不是窃呢。”拉尼娅忽然打断，语气幽幽的说：</p><p>“能让顶级神遗物的灵主动放弃反抗，反而主动帮助挟持者扩散能带来动荡的坏消息，呵，</p><p>我老师曾和我说，七大魔王全部亲临都无法让‘全视之眼’的灵臣服，最多只能做到玉碎。但他能……呵呵。”</p><p>拉尼娅呵呵冷笑。</p><p>花时雨打了个寒噤，用手指绕着自己的发梢，眼神飘忽，“也许你老师对这个世界了解的没那么多呢？对吧？”</p><p>“了解的东西很多很杂，做事随性?”拉尼娅重复了一遍花时雨的话，让对方哑口无言，然后沉声自语：</p><p>“我知道我老师绝不可能变成一个小女孩。但那个小女孩绝对和我老师有说不清的关系!”</p><p>花时雨：“啊……哈?”</p></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

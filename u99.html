@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>点击收藏不迷路-一一导航</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到点击收藏不迷路</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于点击收藏不迷路</h2>
+<p>点击收藏不迷路<p>一道银光随着呼喊声破空而来，转瞬即至，直奔凌晓冬而去。</p><p>“罗姨住手！”</p><p>躺在凌晓冬怀里的沐清荷看清了来袭女子的样貌，正是被义母安排在自己身边保护自己安全的舵主罗玉凤。</p><p>眼看罗玉凤的银枪直直向凌晓冬刺去，沐清荷连忙出声阻止。</p><p>可大宗师的枪实在是太快了，沐清荷刚刚开口，枪尖离凌晓冬的咽喉就只有三寸之遥。</p><p>但是这三寸距离却像是永远无法逾越的鸿沟，凌晓冬抬手握住枪柄，无论罗玉凤如何用力也不能再进半寸。</p><p>“你是何人！”</p><p>凌晓冬与罗玉凤同时喝问道。</p><p>“放开殿下！”</p><p>“殿下？你是说沐姑娘？”</p><p>凌晓冬低头看了看怀里衣裳尽湿，柔弱可人的沐清荷，难道她还是哪位公主？</p><p>沐清荷急道：“罗姨，凌道长是好人，是他救了我！”</p><p>“你认识她？”凌晓冬问道。</p><p>沐清荷轻轻点头，双手撑着凌晓冬的胸膛勉强站起，向凌晓冬解释道：</p><p>“罗姨是我的长辈，应该是看我迟迟不归便出来寻我。”</p><p>凌晓冬一听是沐清荷的长辈，立马松开紧握枪身的手，这玄铁铸就的枪身上留下了深深的手印。</p><p>“哼！”罗玉凤收枪一扫，面色不善。</p><p>沐清荷蹒跚的走向罗玉凤，低头愧疚道：“罗姨，不好意思，让你担心了。”</p><p>“是属下......”</p><p>罗玉凤没有继续说下去，因为沐清荷食指竖于唇前做出了一个静声的动作。</p><p>“我们走吧。”</p><p>沐清荷又转头向凌晓冬告别。</p><p>“凌道长，方才多谢你的救命之恩，小女子结草衔环，此恩必当重报。”</p><p>凌晓冬呵呵一笑，拱手道：“沐姑娘言重了，多多保重，后会有期。”</p><p>“嗯，后会有期。”</p><p>沐清荷微微颔首，温柔似水的双瞳深深地注视着凌晓冬的脸庞良久，才依依不舍地转过身去，伸手环住了罗玉凤的腰肢。</p><p>罗玉凤揽住沐清荷，临走前意味深长地看了凌晓冬一眼，一个纵跃，消失在了院中。</p><p>凌晓冬注视着两人离去的背影，心里思考着罗玉凤那句殿下的含义，却被叶怡云打断了思绪。</p><p>“方才就在那眉目传情，现在人都走了还望着呢？真是郎有情妾有意，看来是我多余了。”</p><p>叶怡云冷嘲热讽着，连她自己也没意识到自己话语里的浓浓的酸味。</p><p>凌晓冬这才想起来被自己晾在一旁的云姨，赶紧赔笑道：</p><p>“这哪跟哪啊，云姨你......”</p><p>“哎！别！我可不是你云姨！”</p><p>叶怡云伸手阻止道：“我看你魂儿都要被那女子勾走了，怕是认不得什么云姨了。”</p><p>凌晓冬赶紧拉住叶怡云娇嫩的双手，讨好道：</p><p>“我忘了谁也不能忘了云姨啊，我发誓！我跟沐姑娘真的没关系！”</p><p>叶怡云双手被凌晓冬牵着摇来摇去，但也没有挣扎，俏脸一冷，把头一偏，不去看凌晓冬。</p><p>“没关系？谁信啊，刚刚那小妮子临走前看你的眼神，都快滴出水来了。”</p><p>“肯定是您看错了！我和沐姑娘一共也就见了两面，怎么可能有关系！”</p><p>叶怡云依旧偏着头，一言不发。</p><p>凌晓冬急了，平常一直有用的招数怎么今日没了用处，他只好更进一步使出杀手锏，上前拥住叶怡云。</p><p>“云姨，我的好云姨，我的亲亲云姨，您要怎么才信我?”</p><p>叶怡云轻轻挣扎了两下，依旧是对他不屑一顾的样子，冷声道:</p><p>“我信，你松手。”</p><p>“你不信我!”</p><p>“我信。”</p><p>“你不信！”</p><p>凌晓冬看着怀里叶怡云无暇的仙靥和娇艳的唇珠，不由想起了水中的一吻，心中一狠，低头亲上叶怡云光洁的的脸蛋。</p><p>触感微凉，如同新剥鸡蛋般光滑软弹。</p><p>“呀！”</p><p>叶怡云一惊，就像一只被踩了尾巴的猫一样，立马回过头来，满眼不可置信地看着凌晓冬。</p><p>“怎么样？云姨你现在信了吧！”</p><p>“你要死啊，我是你姨！你走开！”</p><p>“云姨不信我，那我就亲到信为止，让你知道我的真心！”</p><p>死皮赖脸一直是凌晓冬的强项，低头又在叶怡云脸蛋上猛亲了两口，力道之大甚至吧唧出声。</p><p>叶怡云赤红着脸推着凌晓冬不断靠近的头，慌忙道：</p><p>“我信！我信了，还不成吗？你快放手！”</p><p>“信了就好，我早就说了，我和沐姑娘清清白白。”凌晓冬放开怀里的叶怡云，洋洋得意道。</p><p>叶怡云一手擦着脸上的口水，一手用力怕向凌晓冬的头，娇怒道：</p><p>“你属狗的啊！弄得我一脸口水。”</p><p>“嘿嘿嘿，能当云姨的小狗是我的荣幸。”</p><p>叶怡云翻了个白眼，凌晓冬一旦不要脸起来自己还真那他没辙。</p><p>“下次不准这样了！听到没！”</p><p>凌晓冬委屈道：“我也没办法嘛，谁让云姨一股子醋味，不信我呢？”</p><p>叶怡云刚刚平复下来的俏脸又通红起来。</p><p>“你说谁吃醋！我...我是帮小烟看好你！免得你到处沾花惹草。”</p><p>说到沾花惹草，叶怡云脸色又冷了下来，“别以为这事完了，回去再收拾你。”</p><p>凌晓冬苦着脸跟着叶怡云回到客栈。</p><p>叶怡云慵懒地坐在太师椅上，缓缓给自己倒了杯茶，轻抿一口，充满腴感的大腿交叠在一起。</p><p>凌晓冬在对面正襟危坐，详细讲述着之前被山鬼追逐的情形。</p><p>当然一些可能会让云姨生气的情景被他选择性的去除了，整件事情被凌晓冬编造的危机重重，险象环生。</p><p>叶怡云听得心惊肉跳，双手都紧紧攥在一起，满脸后怕，殊不知凌晓冬在暗中偷瞄她的脸色，心中暗喜自己计谋得逞。</p><p>“沐姑娘当时想要以身帮我挡剑，这我哪能愿意，反手就把她护在身后，就在这危机时刻，云姨及时赶到！三下五除二就让那些山鬼魂飞魄散，威武霸气，威风凛凛，就好像天神下凡，这让我对云姨的崇拜之心更加强烈！”</p><p>叶怡云一脸心疼地看着凌晓东胡天侃地，早就把之前的狠话抛之脑后，她关切的望着凌晓冬，认真道：</p><p>“你把衣服脱了。”</p><br></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>
