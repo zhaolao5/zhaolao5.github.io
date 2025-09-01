@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>二次元网站-在线导航入口</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到二次元网站</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于二次元网站</h2>
+<p>二次元网站<p>说是磨合，其实也就是让组成双人小队的新人死神们认识一下，所以说本来就认识的帝和贝拉多娜，就直接可以跳过这个步骤了。</p><p>拿到任务的指示信息，俩人两鸟马不停蹄地就开始往现世跑，抓紧踩点熟悉目标地点和周遭情况才是对的。</p><p>顺带一提，这里边实际上积极的只有贝拉多娜和海德拉。帝和菲妮本来是打算开摆两天摸个鱼，硬是这么被另一边给拽走了……</p><p>这次的任务是调查某处灵异事件的情况，同时将该事件解决。和第二项考核单纯的调查不同，这一次则是需要双双协作将问题排查解决掉。</p><p>“懂了吗？我看了你第一次和第二次的考核，你运气未免也太好了，几乎就没有碰到过什么冲突！”</p><p>为了端正队友的态度，防止让自己被连累没通过考核，贝拉多娜也是拿出了十二分的劲头来为旁边的公认问题生说教。</p><p>不过有部分也是真的恼火吧，除开被隐瞒的部分，帝的两项考核几乎快把‘保送’两个字写在脸上了。</p><p>同样第一次考核是收割刚逝之人的亡灵，贝拉多娜这边倒是通告完之后，对面直接拒不配合了。</p><p>不过这才是正常的情况，任谁知道自己的人格，意志，记忆……代表自我和人生的一切都会被不留痕迹地抹除掉，都很难会乖乖配合接受吧？</p><p>所以在贝拉多娜看来，一个乖乖接受现实毫无反抗被收割的亡灵？卧槽，你让那些老前辈死神来，他们只会给你评价一句做梦都不是这么做的好吧？</p><p>当时贝拉多娜可是追着对方跑了快城市的半个片区，最后甚至还提着镰刀跟对面干了一架才成功将对面拿下。</p><p>而这样的展开，对死神来说就是家常便饭。</p><p>只要亡灵熟悉了灵体状态下自由虚实切换的节奏，开始在各种障碍物之间穿梭，追捕亡灵这种事情的难度就会变得非常的困难。</p><p>至于第二项考核在贝拉多娜看来更是抽象——一切正常是什么鬼？</p><p>不是，就我认识的四十多名考生，人人都有麻烦事情干，怎么到你这个问题生这，直接来上一句无事发生了？</p><p>“我的第二项考核…啊啊啊啊！我都不想说了！怎么会有机制怪异灵藏那么深的啊！我差点就交代在那了！”</p><p>回想到自己调查的那只神秘机制怪，某位大小姐就头大，那根本就不是新手能处理的东西，怎么会放进新人考核里的啊！</p><p>如果不是贝拉多娜的综合水平超出同龄同资历的死神太多，那她就要有幸成为这一届第一位在考核里殉职的，出师未捷身先死的悲剧死神了。</p><p>【不不不，第二项考核只是让你调查而已，当你确定了那玩意存在的时候，就已经可以结束任务去上报了吧？】</p><p>听完经过的小雀忍不住吐槽了一句，而旁边的海德拉也是没敢接话，不好意思地把脑袋扭到了一边……</p><p>只能说是大小姐某种要做就要做到最好的心态吧？贝拉多娜愣是把调查的意义给误解了，带着自己的渡鸦搭档直接深入敌后了。</p><p>结果后续正式接手任务的死神估计脸都要笑歪了——出现条件，注意事项，弱点，机制规律……这完美的报告，只能说从未有如此美妙的开局。</p><p>举个比较浅显的例子就是别人做小学数学题，你愣是把高数知识给套上去了，厉害是厉害，但这烧死的脑细胞不值得啊。</p><p>【嘛，不过无所谓，会加分的……这么搞这届评分排选第一包是你们的，虽然说没什么意义。】</p><p>摆了摆翅膀，菲妮这番话也不知道算不算是安慰，不过乐子雀的心态倒是挺明显的。</p><p>“那么提问！剪刀问题生！你知道异灵是什么吧！”</p><p>“哦哦！回答！大猫萝莉优等生！就是变异的灵体，大众认识中的公敌！”</p><p>“不准用那个外号叫我！”</p><p>“不是你先的吗？！”</p><p>啊，意料之中的又吵起来了……小雀用喙理了理自己骨头上的碎肉，她这一动作看得旁边的墨绿色灵鸦也是一阵鸡皮疙瘩。</p><p>【啊，你不用这个眼神看咱，咱无所谓的，本来咱就指望有人给那小子说教。他身上问题太大也太多了。】</p><p>不不不，我只是觉得你挑碎肉的动作渗人……渗鸟的有点过分而已。</p><p>当然这番失礼的话，颇有教养的海德拉是不会说出口的。</p><p>而与此同时帝和贝拉多娜这边，短暂的斗嘴之后说教依旧在继续。</p><p>深知某人平常分数别说及格线了，你在答题卡上踩一脚估计都比帝考试的分数要高。</p><p>因此也顾不上什么对面说知不知道，为了自己的考核，知道对面缺乏常识的贝拉多娜，也是尽其所能的为他硬灌输着各种知识。</p><p>“听好了，异灵这种东西，和我们生物体内的灵魂不同，它们是凭空在自然环境，通过特定环境和原因诞生的！”</p><p>生物有着灵魂的存在，而灵魂本身是具备名为灵力的力量的。现世的生物不像冥界生物一样能够很好地将灵力缩在体内，经常会出现灵力或多或少的外泄情况。</p><p>而这些外溢的灵力，同时和诸如共识性一类的特质相结合，就会滋养出一些特别的害虫出来。</p><p>比如说普普通通的校园闹鬼传说，和外溢的灵力相结合，随着时间的推移就会满满滋生出对应传说的异灵出来。</p><p>一开始或许只是个团，只能吓唬吓唬人。但随着传说的具体深入，形象确立……异灵的形体和力量也会愈发的完整。</p><p>“所以现世会有很多的灵异事件，闹鬼传闻，都市传说……基本上都是异灵作祟。”</p><p>说的简单点就是，所谓的闹鬼有大概率是真的。那些鬼怪正是冥界人认识中的异灵。</p><p>“而这些异灵，随着成长甚至能够打破枷锁……突破灵体不能够干涉现世事物的铁则。”</p><p>所以才被称之为变异的灵体，因为变异，所以异常。因为异常，最后这些灵体甚至具备伤人的能力。</p><p>排除这些异灵，也正是死神工作的重要部分。</p></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

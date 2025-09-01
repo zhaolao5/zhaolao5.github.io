@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>粉色传媒-痳豆传媒网</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到粉色传媒</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于粉色传媒</h2>
+<p>粉色传媒<p>鱼皮在生的状态下非常坚韧，张流把金属片用力划在上面也只能留下淡淡的伤痕。</p><p>但在他看来，这已经够了。</p><p>毕竟这伤痕就类似于游戏中的刮痧。</p><p>就算护甲再厚，刮得次数多了同样可以破防！</p><p>我有无数次尝试机会，而你已经注定完蛋。</p><p>当张流感觉自己后背都已经被太阳晒到发烫的时候，他也成功豁开这条海鱼的肚子。</p><p>噗嗤……</p><p>宛如肌肉被挤压一样的声音，张流将手探入鱼肚子，把里面的全部内脏都挖了出来。</p><p>鱼腥味混合着热乎乎并且带着黏腻的手感，属实有些膈应人。</p><p>同时他也很吃惊。</p><p>张流从来没想过一条鱼的内脏能够和鸡鸭这种牲禽的内脏一样大。</p><p>看着手中这团内脏，他此刻有些迟疑。</p><p>在一些科普视频里面有提到鱼内脏可以食用，并且还能提供一些身体必要的营养素，同时也是制作各种陷阱的上佳选择。</p><p>而某位擅长赤裸求生的大佬更曾经干出过将内脏丢到旁边自然腐烂，然后狂吃蛆虫的可怕操作。</p><p>吃鱼内脏啊……</p><p>虽然没吃过海鱼内脏。</p><p>但张流曾经抱着多加点调味料然后煮熟可能味道也不错的穷人想法做过河鱼内脏。</p><p>具体操作方法为将鲤鱼豆腐汤给两个妹妹吃。</p><p>他自己则是尝试着把鲤鱼内脏加点生姜料酒小火慢炖。</p><p>事后那个可怕的无比腥臭口感，让张流这辈子都不会忘记。</p><p>不过眼下是在荒山野岭当中，他也实在舍不得丢弃手上这全靠运气得来的宝贵食物。</p><p>在纠结许久之后，张流将鱼内脏在海水里面细细地清洗起来。</p><p>鱼鳃，鱼肠，鱼胆这三个看起来就腥气无比的玩意，他自然是再舍不得也不会保留的。</p><p>但体积比较大的鱼肝，还有两个妹妹都喜欢吃的鱼鳔，张流将其表面黏着的血丝细细清洗掉之后，放在充当容器的椰子壳里面。</p><p>想了想，他又在椰子壳里面倒满海水，算是完成变相防腐工作。</p><p>接下来就是处理整条鱼了。</p><p>张流并且急着分割，在他看来，已经被放血处理还掏空内脏的鱼还能原地蹦跶着开溜，那就是妥妥的恐怖故事了。</p><p>就在张流这么想的时候，被丢在礁石上的“开膛破肚”鱼忽然原地蹦跶了两下。</p><p>死鱼眼睛更是开始充斥诡异光芒。</p><p>就好像是在埋怨世道不公，自己曾经也是遨游四海难逢敌手的绝世高鱼，如今却在这王八浅滩遭遇一只恐怖二脚猿单杀。</p><p>沉默几秒，为了防止真的出现杀掉的鱼还跑掉这种恐怖故事。</p><p>他最终还是选择把鱼提在手中，然后在沙滩寻找起适合当煮鱼容器的超大贝壳容器。</p><p>也就是据说可以长到一米八的体积，五百千克重量的砗磲。</p><p>张流不需要太大，只要有脸盆那种程度就已经够用。</p><p>而他今天的运气也确实不错。</p><p>在沙滩上漫无目的地寻找一阵子之后，张流就已经看见数只残留在退潮区的砗磲壳了。</p><p>在仔细挑选之后，最终他下水捡回来三大三小的六个砗磲壳。</p><p>不同于滤镜之下的雪白晶莹或者各种色彩艳丽的外表。</p><p>被张流反复刷洗的砗磲壳虽然颜色各异，但脱不开白，灰，黄三种颜色的变化，并且通体呈现出一种灰蒙蒙的阴暗色调。</p><p>整体是三角形，从壳顶到身体中央有弯曲的路径，上面有好几条深深凹进的痕迹，就好像是被车轮碾过一样，并且边沿还带着些粗壮牙齿。</p><p>较真说的话，就是一个加大变丑的贝壳。</p><p>唯一让张流比较满意的地方，也就是它们的内部在清洗之后比较光滑，而且壳身也挺厚实，怎么看都很适合拿来当做炖鱼的锅。</p><p>有容器之后，一直还能保持身体完整的海鱼就倒霉了。</p><p>虽然金属片却是不算锋利，刀刃还短，切割到骨头就已经非常不容易。</p><p>更别说切断鱼脊椎骨这个艰难任务了。</p><p>但张流本来就没指望单单靠这玩意就可以将鱼分切好。</p><p>他只是在骨头的另一面也同样切出口子，然后就将整条鱼两端抓住，用力拗动。</p><p>嘎嘣一声，伴随着可能是鱼脊髓液，也可能只是海水的透明液体在空中飞扬，之前足足有大半米身高的鱼，瞬间就被人工变短三分之一。</p><p>随后张流再继续如法炮制，将鱼肉进行分割。</p><p>很快这条鱼就被他按照鱼头带一部分肉，鱼尾带一部分肉，鱼身全是肉的方式给搞定了。</p><p>一只手端着鱼，一只手提着可能是海带的大丛植物，张流哼着小曲就往洞穴走去。</p><p>这只是第一趟路程。</p><p>接下去他准备往返几次，把剩余的砗磲壳给拿回去。</p><p>今晚非得好好吃一顿不可。</p><p>哼着小曲，张流心情得意到极点。</p><p>在另一边，秦若霜正在弯腰捡起掉落地面上的嘉宝果，然后放到身边作为容器的椰子壳里面。</p><p>而安雅则是正在一颗树下仰头喝水。</p><p>两人的采摘工作已经接近尾声。</p><p>“要喝水吗？”将尚且剩余小半的矿泉水递到同样开始站着喘气休息的秦若霜身边，安雅开口说道：“我们该回去了。”</p><p>“嗯，谢谢。”接过水瓶喝了两口，秦若霜点点头说道：“是该回去了，太阳颜色开始变了。”</p><p>按照张流的说法，太阳变红就代表着即将进入黄昏，如果是天空变红，那两人就必须开始加快赶路速度。</p><p>秦若霜自然不愿意再给张流惹任何麻烦，更不用说今天的收获还是相当不错的。</p><p>两个椰子壳做的容器里面，都是装满了。</p><p>所以她准备速度走人。</p><p>不过地上能够直接捡的与树木上方便摘下来的果子，也是已经寥寥无几了。</p><p>毕竟这不是人工育种的优良品。</p><p>产量并没有太多，能够支撑三人这两天时间的消耗，已经算是非常厉害了。</p><p>“水果不多了。”走之前，秦若霜看了这片小树林一眼，走到半路的适合，她忍不住低声担忧起来：“我们以后怎么办。”</p><p>“放心吧，今晚不是吃鱼嘛！”相比于秦若霜，安雅就显得颇为乐观。</p><p>伸手捻起一枚嘉宝果塞进嘴里，她一边品尝着嘴里的甘甜滋味，一边开心地说道：“到时候我们就要看谁下手快谁多吃了啊！”</p><p>“你说的也是。”想起今晚能够吃肉，秦若霜脸上也是浮现几分笑意。</p><p>她同样是对晚餐充满期待，脚步也是加快几分。</p><p>两人很快就来到小山石附近。</p><p>看着这块曾经依靠着蜷缩一夜的巨大石头，秦若霜心中又忍不住难受起来。</p><p>因为她想起张流今天因为自己和安雅之间的对话所摆出的那种洒脱表情。</p><p>“安雅，你说张流会不会不要我们了？”捧着嘉宝果，秦若霜转身担忧地询问起来。</p><p>这问题，安雅之前询问过，一直在她心中回荡，此刻再也憋不住了。</p><p>“额……”</p><p>安雅面色极其古怪地眨了眨眼，没有说话。</p><p>倒不是因为她无言以对。</p><p>而是安雅看见张流的脑袋也正好从小山石的另一侧探出来，脸上表情十分惊愕。</p><br></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

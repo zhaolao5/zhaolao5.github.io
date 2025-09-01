@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>花火本子-污导航跳转</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到花火本子</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于花火本子</h2>
+<p>花火本子<p>将海鲜放下后不久，在洞穴下方各自忙活的张流与安雅两人和抓兔子回来的秦若霜完成会面。</p><p>此刻外面天色已经有黑下去的情况，三人准备在荒野上度过第四个夜晚。</p><p>“你怎么了？”安雅坐在火堆旁边把鞋子脱了烤火，看着秦若霜从旁边走来，并且浑身都是草碎的狼狈样子，语气当中顿时有些好奇。</p><p>她自然是看见洞穴里面铺着的“草席”，但也应该不至于弄到这种程度吧？</p><p>正在倒腾海鲜的张流，也是奇怪的看了秦若霜一眼。</p><p>“那边草堆里面有兔子！”秦若霜满是遗憾的开口说道：“但我抓不住。”</p><p>“兔子……”听见这两个字，张流顿时就感觉面前这些正在上下翻滚的贝壳肉不香了。</p><p>毕竟那可是带着浓浓肉香的蛋白质啊！</p><p>“嗯，很难抓！”走到安雅身边，秦若霜一边掸着身上的草碎，一边开口说道：“张流，今晚在外边守夜吗？”</p><p>“是的，我想要守住水源口，这样的话，明天晚上说不定就有机会抓捕成功了。”张流点点头，然后用金属片把海带根茎切成块状放入充当煮饭锅的砗磲壳内，继续开口说道：“如果明天晚上抓捕失败，我后天早上就出发去飞机残骸那边了。”</p><p>“好！”秦若霜轻微点头。</p><p>虽然她有些担忧张流的单独行动会不会出问题。</p><p>但考虑到他在这里的表现是自己完全不能比的，秦若霜也没啥底气说让担忧之类的话。</p><p>“对了，你们可以尝一下这个。”将手中黄灿灿的果实递给秦若霜和安雅，张流开口说道：“我可以肯定这是蛋黄果，因为这味道和我以前在水果店里面吃过的一模一样，并且植物图鉴里面，它也是长这样的。”</p><p>面对这个新的水果，两女表现各异。</p><p>秦若霜双手捧着水果细细打量，显然是没见过这样的水果，有些好奇。</p><p>而安雅则是开始直接上嘴。</p><p>“好干……”随即她忍不住含糊不清的开口抱怨起来。</p><p>咬了一口就感觉像是吃进去含水量颇低的甜味沙子。</p><p>安雅原本在闻到果实甜美香气直接狠狠咬下的时候，还以为会吃到类似于大芒果一样的口感。</p><p>结果这层薄薄的果皮异常坚韧酸涩也就算了。</p><p>里面的果肉还特别缺乏水分，并且真的就好像是熟鸡蛋黄一样瞬间覆盖口腔每个角落，开始贪婪的索取水分。</p><p>“据说维生素C的含量很高。”张流将烧好的开水端给安雅，然后看向正在剥皮之后食用的秦若霜开口问道：“你感觉如何。”</p><p>没有回答……</p><p>因为秦若霜咬的第一口同样挺大，于是口腔里面也是和安雅一样，被狠狠糊了上去。</p><p>她费力咀嚼着，想要刺激唾液腺分泌唾液，将堵在嗓子眼附近的蛋黄果给带下去。</p><p>折腾了好一会，两个女生才把嘴里面的蛋黄果咽下，然后开始小口啃咬，品味起这比较稀有的水果。</p><p>而张流则是默默看着手中这枚水果，他心中闪过一个念头，随即就因此陷入了沉思。</p><p>“怎么了？”吃完水果之后，秦若霜和安雅两人都看向正在思考的张流。</p><p>她们的语气都有些担心。</p><p>“我在担忧时间的问题。”轻微叹了口气，张流把手中这枚蛋黄果放下，然后看着两人说道：“我们原定的修学旅游计划应该是到位于太平洋的库克群岛去享受热带风光吧？”</p><p>“是的。”被张流忽然提起现实情况，秦若霜语气顿时就沉了下去：“有什么问题吗？”</p><p>“并且还是已经完成从悉尼转机这个事情。”张流指着地面开口说道：“换句话说，如果是最坏情况，我们现在应该是在太平洋的某个荒岛上面。”</p><p>“应该是这样。”安雅点点头，然后开口问道：“张流，你说这个是想要干什么？”</p><p>“换句话说，这边肯定是热带区域，所以之前我们担忧的冬天太冷情况应该不会出现，但可能会有大雨季和干旱季。”</p><p>皱眉思考着自己学到的地理知识，张流直到这时才明白书本和现实的区别。</p><p>那些荒野求生知识目录里面，只记载了很多有趣的技巧或者例子。</p><p>但从来不会有什么全套的方案。</p><p>更没有教你怎么度过雨季或者干旱季之类的详细描述。</p><p>“大雨季是指下很多雨吗？”秦若霜听见张流的话之后，顿时有些皱眉。</p><p>“嗯，但现在这种情况，没有医疗后勤保障，根本不可能冒险淋雨，目前时间是在11月左右，应该是干旱季，所以还没啥问题，但之后六月左右，好像就是雨季了。”</p><p>张流砸了咂舌，然后开口说道：“到时候我们必须要提前做挡雨的准备。”</p><p>“躲在这里不就好了。”指着头顶的山体，安雅开口说道：“反正这里这么深，雨水也飘不进来。”</p><p>“那吃什么呢？”秦若霜看了安雅一眼，然后开口说道：“现在不下雨，去外面找吃的方便，以后连着下雨怎么办。”</p><p>“走一步看一步吧，这么大的森林呢，还能饿死我们三个啊。”张流耸耸肩然后开口说道：“先吃饭吧。”</p><p>看着两人凝重表情，他也是明白自己有些过于杞人忧天，还带动全队情绪光环了。</p><p>于是张流主动将两只熟螃蟹捞出在小砗磲壳里面，然后一左一右递给正露出担忧表情的安雅和秦若霜面前说道：“安雅同学，秦若霜同学，先吃螃蟹吧？”</p><p>“谢谢。”秦若霜伸手接住了砗磲壳，然后就放在自己身前等着螃蟹冷却下去。</p><p>但安雅却是脸上露出忿忿表情，一直盯着张流，整个人则是端坐不动，就好像没有看见递到自己身前的螃蟹一样。</p><p>“？？？”张流愣了下，随即想起对方和自己说过的称呼，于是他清了清嗓子，然后试探着开口重复说道：“安雅，吃螃蟹吧？”</p><p>“嗯！”脸上原本存在的忿忿表情顿时烟消云散，自认为将张流完美“调·教”的安雅，伸手接过螃蟹开始低头享用。</p><p>时不时还发出“次哈，次哈”的被烫声音。</p><p>看着安雅这被烫却又舍不得放开的可爱举动，张流忍不住嘴角上扬，暗暗笑了一下，然后转身给自己捞出好几块海带根茎放在砗磲壳里面冷却。</p><p>在他身后，手中正在把玩着螃蟹脚的秦若霜看了看安雅，然后又打量一眼张流。</p><p>她忽然就有种心中酸溜溜的滋味。</p><p>和粗神经完全不明白安雅同学跟安雅这两个称呼之间有啥区别的张流不同。</p><p>在秦若霜听来，这明明就是安雅不愿意吃，然后张流说好听话哄对方吃！</p><p>如果自己不愿意吃的话，张流会叫自己秦若霜吗？</p><p>想到这里，她很想要说一句“我吃饱了”作为测试。</p><p>但看着安雅正急赤白脸往嘴里塞螃蟹肉的举动，秦若霜也不敢随便开口。</p><p>万一这货真的就抢过自己螃蟹，然后直接吃掉怎么办。</p><p>一边纠结，一边往嘴里塞着甜美的螃蟹肉，很快她就将这件事跳过。</p><p>同时晚餐重头戏，一大盆贝壳肉与海带根茎的混合物被均匀地盛到了三人碗里。</p><p>面对满满一碗被冷却到正好入口的带汤食物。</p><p>已经被螃蟹肉勾起胃口的秦若霜和安雅两人压根就没有再考虑什么称呼问题。</p><p>只顾着端起碗，然后用树枝做的临时筷子往嘴里扒拉。</p><p>相比于畅快享用的两人，将带碎壳的非纯肉留给自己的张流，则是需要时不时吐出一片壳碎片。</p><p>这一幕，也是被秦若霜和安雅看见，想起张流先把上面两层全是肉的分给自己。</p><p>对视一眼，她们都默默停下了吃饭举动。</p><br></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

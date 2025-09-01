@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>回家的路-奥兔导航</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到回家的路</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于回家的路</h2>
+<p>回家的路<p>秦若霜与安雅各自忙碌的时候，张流正在处理石头坑。</p><p>昨晚他想的计划非常轻松简单，在落叶上面丢上一层厚实的杂草，然后用火点燃。</p><p>接下去的工作就是等待。</p><p>最后把烧好冷却下来的灰作为吸水剂，对这个洞穴起到干燥杀菌的作用。</p><p>自己跳下去简单清理，预计下午就能完工，开始做“馕坑烤羊”</p><p>晚上成功吃到羊腿，不出意外明天还能带点羊肉上路。</p><p>但这真的只是想想而已。</p><p>实际操作起来，张流在第一个环节就感觉到麻烦了。</p><p>首先就是燃烧效率。</p><p>由于坑穴下面没有进气口，所以里面的杂草虽然都是挑选过的干枯状态，理论上非常适合燃烧。</p><p>但实际上燃烧起来并不充分，甚至于最外表那层烧完之后，下面的就不再有动静了。</p><p>这就逼得他必须拿一根长棍站在旁边拨弄掉外面那层隔绝氧气的灰烬，帮助燃烧。</p><p>这也算是勉强解决掉燃烧效率问题了。</p><p>可新的问题又出现了，洞穴坑下面是大约五厘米深度的烂泥腐殖层，里面还是有些黑色液体存在的。</p><p>稍微拿着棍子一捅，燃烧起来的杂草和它就会产生接触。</p><p>发出“嗤嗤”声然后熄灭也就算了。</p><p>关键是烟还贼大，贼黑。</p><p>比刚才熏羊肉的烟大多了。</p><p>“咳咳咳……”张流站在旁边，他是不知道自己外表被熏成什么样子了，但是咳嗽是一直没有停下来。</p><p>同时没有停下来的还有努力拨弄坑穴里面杂草的动作。</p><p>在张流持之以恒的一遍添加杂草，一遍拨弄扩大燃烧效率，一遍疯狂咳嗽的努力下，他终于被烫得不能站在石头旁边了。</p><p>从这块空旷岩石地尴尬离开，张流只有准备先跑回洞穴帮安雅的忙，至于坑这边，只有等待冷却完毕，再过来查看情况了。</p><p>不过燃烧的效率已经明显上升了。</p><p>坑里面的水分被蒸干之后，那些枯黄发黑的树叶同样躲不过成为助燃物的命运。</p><p>原本又粗又大的黑烟已经渐渐小下去了，这是里面的水分被全部烤干，开始进入焖燃状态的表现。</p><p>张流在离开之前，也是本着柴多火焰高的老话，使劲塞了好几把干燥杂草进去。</p><p>并且将那根搅拌的木棍支起在最中央作为空气流通的路径。</p><p>与此同时在岛屿的某一处，一名女生抬头看着天空中飘起好久，眼下渐渐消失的烟雾，脸上露出了激动神色。</p><p>她的容貌与穿着打扮，和正在洞穴附近弯腰捡拾柴火的秦若霜几乎一模一样。</p><p>唯一不同的就是裹住双腿的丝袜，秦若霜的是黑丝。</p><p>而她是白丝的，但也因为这几天的跋涉而有些变黄了。</p><p>“希望是救援！”喃喃自语一句，女生看着面前这晚上会有狼嚎声传出的森林，咬了咬牙。</p><p>跑到外面沙滩，她开始往有烟雾传来的方向前进。</p><p>和张流的选择一样，女生宁可通过沙滩绕远路，也不愿随意踏入森林。</p><p>……………………</p><p>“羊肉串，羊肉串，一块钱三串！”</p><p>洞穴附近，安雅正在卖力得吆喝着。</p><p>而张流和秦若霜则是坐在旁边捧腹大笑。</p><p>在有充足食物作为底气之后，三人的精神状态也是上升了好几个档次。</p><p>笑完之后，张流很是无奈地看着身边秦若霜，此刻安雅的搞笑举动，就是她撺嗦的。</p><p>说是想要来一个表演，于是安雅就自告奋勇开始模仿《羊肉串》了，并且演出效果也确实很不错。</p><p>“看着我干什么。”秦若霜面色微微发红，她低头用锐利的燧石从椰子壳里面划拉下一块椰肉，直接拿起递到了张流嘴边，开口说道：“饿了？”</p><p>“没……”无奈摇头，张流也不知道该怎么说，只是伸手接住秦若霜递过来的椰子肉，然后放进嘴里咀嚼起来，味道依然寡淡无比。</p><p>不过三人的午餐蛋白质爆表。</p><p>等安雅将她手中最后的三串羊肉串拷完之后，就已经开始开饭了。</p><p>一人三串羊肉串，一个椰子，大碗羊杂汤，外加两个蛋黄果。</p><p>光是从外表看起来，还是相当不错并且能够算得上丰盛的。</p><p>不过实际味道……</p><p>“要是有盐就好了。”安雅捧着羊杂汤喝下一口，苦着小脸说道：“好淡，味道还臊……”</p><p>正在吃羊肉串的秦若霜，在细细咀嚼之后，脸上也是露出几分难以接受。</p><p>野生的羊，在名厨的烹调下，或许确实可以激发野性味道，比普通的家养羊要好吃。</p><p>但那有个前提。</p><p>一是名厨。</p><p>二是烹调。</p><p>安雅，张流，秦若霜三人当中，唯二和名厨有关系的就是安雅与秦若霜。</p><p>但她们也只有坐在豪华餐厅里面吃饭的关系，偶尔厨师会跑过来给她们现场炫技，可也只有这样了。</p><p>而在烹调方面，目前三人还处于刀耕火种的情况。</p><p>他们也压根不认识什么野生葱姜蒜之类的调味料。</p><p>能够用火烤熟肉，已经算是极为了不起的事情了。</p><p>这导致的后果就是野生山羊的野性，三人是吃不出来了。</p><p>不过野生羊肉自带的骚味，膻味，张流没能做到提前放血从而导致血液残留，肉里面留下的酸味，苦味，倒还真的吃出来了。</p><p>上午作为早餐的羊内脏串，是有着饥饿这个调味料，怎么吃都好吃。</p><p>眼下当做午餐的羊肉串与羊杂汤，几人都是本着“最好吃的食物留到最后”这念头，优先吃掉了椰子和蛋黄果。</p><p>因此秦若霜与安雅两人开始感觉味道不算好，不过这并不影响她们往嘴里狂送。</p><p>今天的饥饿调味料确实没有了，但前几天的饥饿调味料还在啊！</p><p>只能用水果或者海产填充肚子，过一会就饿的惨痛遭遇让两个女生最多只会感叹没有调味料，东西有些不好吃。</p><p>而在两人身边的张流，更是已经快速吃完食物，开始眼巴巴得看着正在吊切架上被烟雾熏燎的羊肋骨，羊屁股肉，四条大腿，还有好几片不知道哪个部位的肉。</p><p>“呐！”将自己还剩下两串的羊肉串分出一串，安雅递给张流开口说道：“给你！”</p><p>她看出张流眼神中那种对肉的渴望了。</p><p>虽然安雅也同样对肉很渴望，但想到之前对方宁可饿肚子也要给自己吃的情况，她还是选择分出自己的肉。</p><p>不过在递过去羊肉串的同时，安雅也对秦若霜开口说道：“我这样已经算是少吃肉了啊，你晚上不准抢我羊腿肉吃！”</p><p>“好！”嘴角努力抑制着笑意，秦若霜将自己喝了一半的羊杂汤也端到张流身边说道：“张流，我胃不舒服，这些羊杂太硬，所以你帮我吃掉吧。”</p><p>“你胃不舒服吗？”伸手接住安雅的羊肉串放在砗磲壳上，张流紧张地看向秦若霜。</p><p>“没事，可能是最近吃太多水果，一下子不能吃太多肉导致的吧。”随口说了一个借口，秦若霜将羊杂汤放下，然后就开始细细咀嚼烤肉了。</p><p>“真的没事？”张流依然有些担忧地看着秦若霜。</p><p>在这种荒野当中，胃如果出问题了，那就是超级大的麻烦。</p><p>“嗯，没事，只是有些难受。”面对张流这种自己说什么都会很当真的男生，秦若霜一时间也是有些心情复杂，不知道该怎么评价。</p><p>但她并没有在脸上露出来，而是柔柔得继续开口说道：“应该过一会就自己好了，你帮我把羊杂汤喝掉，让我心里好受点，不然浪费粮食多可惜呀！”</p><p>“哦哦哦！”连忙从羊杂汤里面拿起一块可能是肠子的食物放入嘴里咀嚼，张流正准备咽下，他的衣领忽然被安雅拎住了。</p><p>“我的胃现在也不舒服！帮我把这块肉吃了开心下！”将自己吃剩下的一块肉堵在张流嘴前，单手拎着对方衣领，安雅往目瞪口呆的秦若霜看去一眼，又对同样目瞪口呆的张流开口威胁道：“不然我也要因为浪费食物不开心了！”</p></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

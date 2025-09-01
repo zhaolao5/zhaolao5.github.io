@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黄色导航-大王导航</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到黄色导航</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于黄色导航</h2>
+<p>黄色导航<p>火堆旁边，正好是张流耗费大半夜时间编制完成的那张网。</p><p>头羊怎么都没想到，自己会遭遇这种露天陷阱攻击。</p><p>羊蹄子陷入沙滩，并且不偏不倚地踏入“藤条渔网”的网眼。</p><p>等再次拔出来的时候，羊蹄子边沿已经带上木质纤维线，跑动几步后，就立刻带动旁边的石头打结，开始变成前脚绊后脚的情况。</p><p>在两秒不到的时间里面，它整只羊就已经摔倒在沙滩上，整整滑出两三米的距离。</p><p>不过也距离张流几人整整有十几米远了。</p><p>“吼！”</p><p>“吼吼！”</p><p>“吼吼吼！”</p><p>并不是动物世界里面放出来的咩咩叫声。</p><p>此刻张流，安雅，秦若霜三人身前，头羊正在摇头晃脑地疯狂挣扎，并且发出宛如野兽一样的嘶吼。</p><p>没有多说什么，张流举着特制木棍，安雅再次捡起石头。</p><p>就连秦若霜也是快速从洞穴旁边爬下，在火堆里面摸索到一根正在燃烧的木头站在旁边为两人提供照明。</p><p>伴随着火把靠近，头羊的嘶吼声愈发惨烈，更是拿着仅剩一根的羊角乱顶，四条羊腿也是疯狂乱蹬。</p><p>但这些都没有什么作用，只是让它身上这层木质纤维编制的绳索缠绕地更加紧实。</p><p>三人一起站在了这只头羊身前，互相对视一眼，脸上都按捺不住激动情绪。</p><p>“懂不懂什么叫做恐怖二脚猿！”举起手中这根捆着石头的木棍，张流怒吼一声，然后对准羊已经断了一根角的脑袋狠狠砸下。</p><p>这一下可要比安雅的“石头版诺克萨斯断头台”狠太多了。</p><p>“哇……”被准确命中脑袋，头羊发出一声惨嚎，却并没有当场死亡。</p><p>生命力极端顽强的它反而是四条腿绷得笔直，硬生生挣得绳索发出滋啦滋啦地声音。</p><p>张流顿时急眼了。</p><p>这种时候要是羊跑了，那他能后悔一辈子！</p><p>在肾上腺素的刺激下，他丝毫不知道疲惫，只是连续挥棍敲击着。</p><p>哪怕木棍前段的石头被强大地惯性崩裂捆绑树藤，然后被挑到不远处掉落，张流也没有停下举动，依旧是用木棍敲着仰头。</p><p>一直到木棍折断，发出噼啪脆响，他才反应过来。</p><p>气喘吁吁的丢掉木棍，张流坐倒在沙发上，然后不再说话。</p><p>看了看张流，安雅眼神中露出几分恐惧。</p><p>她曾经看过宰杀成年牛的场面，但此刻也对面前这血腥一幕有些无法适应。</p><p>面前这只羊脑袋已经被敲得面目全非，脑髓伴随着骨骼碎片一起黏在木棍前段的尖锐石头上。</p><p>只剩下肢体抽动，表示自己可能还能抢救一下。</p><p>“……”秦若霜抿了抿嘴，没有说话。</p><p>看见鱼血都会头晕的她，自然是非常不适应这种气味，颜色，声音一起出现的重口味场面。</p><p>强忍着肚子里面翻江倒海一样的恶心感，秦若霜走到张流身边关心问道：“你没事吧？”</p><p>从刚才到现在，张流都是双手拄在身后沙滩，然后大口喘着气。</p><p>“没事！”他用力摇头。</p><p>但张流浑身上下，也就剩下这摇头的力气了。</p><p>刚才的那一波爆发是真的将他全部力量都压榨出来了。</p><p>担忧地看着张流，秦若霜怎么都感觉不出来张流这一句带着深深喘息的没事存在什么说服力。</p><p>“应该是脱力了，坐着休息一会就好。”走到张流身边，安雅用手捏了捏他肌肉僵硬无比的手臂，然后开口问道：“这样捏你有感觉吗？”</p><p>“有……很痛。”张流乖巧点头，然后看着地上的羊尸体兴奋说道：“真是没想到……”</p><p>虽然不知道为什么，这些山羊完全就不害怕人，但眼下的结果就是自己三人获得了一大堆的肉！</p><p>这是肉啊！</p><p>充满蛋白质，脂肪香味的肉！</p><p>不过他此刻也是陷入了困扰。</p><p>因为张流这十七年的人生当中，从来就没有处理过这种级别的肉类。</p><p>而且手上的工具，也只有那片不算锋利的金属片。</p><p>不过他心中也明白一点，那就是必须尽快处理，肉在眼下这种环境，只怕十几个小时就得变质。</p><p>勉强站起身，张流借着篝火光线打量被自己砸到面目全非的山羊，开始回忆在科教片里面看见的猎物处理视频。</p><p>随即他也想到身边安雅家里好像是开养牛场，并且专产那种神奇牛肉的。</p><p>于是张流果断开口询问起来：“安雅同学，你有处理这种东西的经验吗？”</p><p>“我……”安雅刚准备回答，却又意识到对方口中的称呼，她立刻扭头做出“没听见”的姿态。</p><p>“？？？”</p><p>张流愣了下，随后反应过来，他连忙跑到安雅转头的方向，然后满脸讨好的开口询问道：“安雅，你知道这个怎么弄吗，我不会啊。”</p><p>“还算有些经验，我看过家里的屠宰员吊切处理牛骨架的场面。”听见满意的称呼，安雅昂着脑袋得意说道：“想不到吧！”</p><p>“真想不到！”认真点头，张流就好像是看见救星一样询问道：“你快点和我说下，怎么吊起来的！”</p><p>安雅顿时沉默。</p><p>但在张流殷切眼神中，她还是勉强开口了。</p><p>“其实……我……我不知道，我就是看了一眼。”被问到关键硬核问题，安雅顿时就耷拉下脑袋，然后小声说道：“只是记得他们把牛往下吊着，刷刷刷就切完了……”</p><p>“噗嗤……咳咳咳……”正在围观两人讨论的秦若霜听到安雅这可爱语气，顿时忍不住笑了出声。</p><p>然后她连忙咳嗽两声来作为掩饰。</p><p>被秦若霜这样直接笑出声，安雅连忙解释道：“秦若霜你别笑我啦！我以后又不可能去学杀牛，所以肯定不会看全部过程啊！”</p><p>“嗯嗯，安雅同学，我刚才没有嘲笑你的意思，只是感觉你很可爱。”看着安雅脸上这幅因为自己不能帮忙而满是愧疚的表情，秦若霜急忙开口解释道：“相比你，我现在连一点忙都帮不上呢。”</p><p>“谁说你没帮忙！都是你把我叫醒了，我才有机会偷袭这只羊的。”安雅连忙说出秦若霜在这次狩猎中发挥的作用。</p><p>两人此刻忽然开始吹捧对方。</p><p>“要不这样吧！”在思考之后，张流也是有了自己的处理方案：“你们两个先去睡觉，然后我在下面处理羊肉，明天早上再说其他事情。”</p><p>“啊……”原本以为要熬夜帮忙的安雅和秦若霜两人顿时就有些意外。</p><p>不过张流也是开口说道：“我就做简单处理，然后也睡觉了，这死掉的羊又不会跑了，明天白天我们再一起处理就好。”</p><p>在张流的坚持下，秦若霜和安雅两人还是举着火把走进洞穴开始继续休息。</p><p>而洞穴外面，张流开始忙碌起来了。</p><p>面前这只羊哪怕去掉脑袋，身体长度也在一米多。</p><p>他不认为自己半个晚上就能摸黑完成处理。</p><p>眼下最应该做的事情是想办法保存羊肉。</p><p>张流的方案非常简单。</p><p>就是将羊进行开膛破肚，把最容易腐败的内脏清理出来。</p><p>虽然没处理过羊内脏，但张流杀过鸡。</p><p>本着所谓“麻雀虽小肝胆俱全”的特点，在他想来两者内脏的处理方式应该也是差不多的。</p><p>将肠子，胃和心肝脾肺之类器官的用水浸泡起来。</p><p>晚上捡回来准备当储水容器用的两个超大砗磲壳在此刻产生了强大作用。</p><p>虽然不知道能不能有防腐效果。</p><p>不过在他看来，这样做最起码是把空气和外界成功隔绝了。</p><p>两个装满谁的砗磲壳正好容纳完全部内脏。</p><p>想了想，张流又在上面盖了一层枯草，一层树枝当做阻拦苍蝇的栅栏。</p><p>把切开的羊肉用草木灰厚厚地抹上一层吸收血水，再埋入干燥的沙坑当中防止苍蝇盯上去。</p><p>至于详细的扒皮切块处理，张流准备明天再说。</p><p>重重打出一个哈欠，将篝火烧旺，他坐在羊内脏和埋羊肉的坑旁边，开始闭眼休息。</p><p>疲惫和篝火燃烧发出的噼啪声，外加被血腥味吸引过来的苍蝇嗡嗡声混合在一起，就是最好的助眠物品。</p><br></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

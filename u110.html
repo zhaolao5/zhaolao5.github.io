@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第一导航-跳转进行中导航入口</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到第一导航</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于第一导航</h2>
+<p>第一导航<p>秦若霜说的没错。</p><p>火确实就要灭了。</p><p>张流自认考虑的非常周全。</p><p>钻木取火之前就将干燥木头架起摆成中空状态。</p><p>他预想中，之后只需要在最里面塞入火种，接着就应该可以生火完毕了。</p><p>毕竟视频里面都是这样做的。</p><p>但真搁到现实操作的时候，情况却出现了变化。</p><p>能够将手掌烫到生疼的火种，完全没有如愿引燃架起来的木头。</p><p>或许是木头太粗？</p><p>也可能是木头没有想象中那么干燥易燃？</p><p>又说不定是火种火势太小？</p><p>但这些都不重要。</p><p>眼下摆在他面前的最大实际问题，就是好不容易出现的火种要熄灭了。</p><p>不能灭！</p><p>几乎是急得眼睛都在发红，张流快速找到问题解决的方法。</p><p>他用手指甲从干燥木头上掐出宛如小树枝般粗细的碎条，然后凑到火上引燃。</p><p>即便是坚硬的木质纤维将指甲刻到生疼也是同样。</p><p>在他身边安雅和秦若霜也是有样学样，开始将堆放在旁边的木头进行细碎处理，然后接连递给正在小心翼翼维持火种的张流。</p><p>在三人的通力合作下，一个小火堆终于出现。</p><p>然后将中空架着的木材堆引燃。</p><p>“应该不会再随便熄灭了。”看着已经在火焰中燃烧起来的粗壮木木材，张流总算是松了口气，然后坐在沙滩上看着火堆发愣。</p><p>直到现在，他才有些出神。</p><p>自己真的在这个荒岛上钻木取火成功了？</p><p>茫然扭头看向身后的安雅和秦若霜，张流眼神十分复杂。</p><p>既感动，却又带着迷茫。</p><p>在他身后，两个女生脸上也同样是说不清道不明的感慨表情。</p><p>虽然是在炎炎烈日之下，按理来说火这种东西只会增加燥热。</p><p>但眼下，这堆火却让三人都感受到了一种来自心底的温暖。</p><p>“我……我先烤个椰子？”安雅眼珠子一转，很快就想到对火堆的使用方式之一。</p><p>“随便你啦，我现在去外面收集点木头回来。”张流笑了笑，然后开口说道：“今晚退潮的时候，我再去沙滩那边看看，有鱼搁浅的话，今晚咱们三个人就能吃烤鱼了。”</p><p>“烤鱼！”秦若霜听见这两个字，也是忍不住露出激动的神情。</p><p>她一直没有和安雅那样，开口抱怨椰子肉难吃之类的。</p><p>但如果真能吃到热乎的食物，那对于秦若霜来说同样是充满诱惑力。</p><p>“是啊……”张流正在点头回应，他眼神却忽然落在秦若霜胸口。</p><p>那半透明衣服下所透露出的两点淡淡粉红，要说非常醒目那也不算，但也绝对是相当引人注意的。</p><p>张流心中一愣，他清晰记得秦若霜是穿着一件紫色文胸。</p><p>发生了什么事情，身为女孩子的对方，会把遮挡胸部这个重要部位的贴身衣物脱掉？</p><p>有心询问，但话到嘴边，张流也不知道要怎么说出去。</p><p>毕竟这事情涉及隐私部位，说起来也是比较尴尬。</p><p>“张流！你看什么呢！”</p><p>就在张流愣在原地思考的时候，从旁边兴冲冲端着椰子跑回来的安雅是一眼就看出他的眼神焦点，于是满脸不爽的开口质问起来。</p><p>而被张流盯着的秦若霜，已经是害羞到低头不说话了。</p><p>“没事……没事！”被安雅这一句话吓到，张流宛如逃跑一样手脚并用从沙滩上爬起，然后往之前捡木头的小树林跑去。</p><p>……………………………………</p><p>张流离开之后，安雅和秦若霜就互相对视一眼，都陷入了沉默。</p><p>此刻太阳已经偏移，原本处于阳光暴晒之下的生火点，眼下已经归于阴影地区。</p><p>火焰的颜色也是更加艳丽明显，而不是之前只会发出热度扭曲空气的情况。</p><p>面前火堆正在噼啪燃烧，两名女生却是悄无声息的坐在沙滩上，她们已经最起码沉默小半个下午了。</p><p>安雅端过来准备烧烤的椰子，也是迟迟没有敲破。</p><p>只是秦若霜会偶尔往已火势变小的火堆里面投入较为粗壮的木头，然后两人再一起看着木头表面被引燃，烧到碳化……最后变成灰烬。</p><p>“你……该不会是故意不穿内衣的吧？”最终还是安雅率先打破这死一样的寂静。</p><p>她扭头看向秦若霜，眼神中充满了担忧。</p><p>和爱好理科的秦若霜不同，喜欢文科的安雅看过一些荒岛求生类型的种马文。</p><p>什么空姐，女神之类的，都会在最后变成男主的女人，而且出现无下限讨好，甚至于争宠的剧情。</p><p>之前还没有感觉，可刚才看见秦若霜害羞低下脑袋之后，她却忽然有了这么一个可怕的想法。</p><p>对方该不会是准备做一些主动的事情了吧？</p><p>“不是！”秦若霜连忙摇头，她之所以这么长时间的不说话，只是因为害羞和不知道要怎么解释。</p><p>眼下安雅将话说开，她也是诚恳地说出自己想法。</p><p>也就是迟早会有一天出现衣不蔽体的情况，所以才将内衣直接拆了，算是提前适应。</p><p>并且里面的海绵垫还能用于两人清洗下半身这个部位。</p><p>“真……真的吗？”听秦若霜说完之后，安雅的表情渐渐放松下去，随即她也是看见秦若霜十分认真地点头作为回应。</p><p>“那就好……”</p><p>点点头，随后将手上的椰子敲开，把椰汁倒入旁早早准备好的两个椰子壳里面，自己和秦若霜一人一份。</p><p>接着安雅就开始将椰肉用金属片剔出，然后切成小块，穿在新折下的树枝上。</p><p>她准备来一次烧烤椰肉。</p><p>并且一次穿了两根，就和椰汁一样，一人一份。</p><p>“安雅同学，其实我刚才那么久不说话，还有一个原因。”</p><p>将椰肉串放在火堆最上面利用热力炙烤，秦若霜虽然没有烧烤经验，但也知道不能靠太近，否则木棍点燃，椰肉就会落在火里或者烤焦。</p><p>随后她在安雅困惑眨眼的状态下，缓缓说出后续的话：“那就是我担心你喜欢张流，然后张流看见我的胸，你正处于吃醋的状态。”</p><p>安雅顿时就有些无语，学着秦若霜样子探高手把椰子肉举起在火堆上面，然后她用极为认真的语气开口回复道：</p><p>“我那天想了很久，最后也是明白，之前会对张流有喜欢心动的感觉，大概就是吊桥效应这之类的。”</p><p>“你说得对，我和张流之间是不可能的。”</p><p>“只要救援一来，或者我们脱困，他就还是那个失去双亲还得带两个妹妹的孤儿，而我可是日本安氏财阀的继承人，张流拿什么和我说未来？”</p><p>听到这样的回答，扭头怔怔看着安雅，秦若霜沉默了好久。</p><p>最终她才微微叹了口气，然后低声说道：“你说的很对。”</p><p>“但我不是这个意思，我是想说以后要是脱困了，你和他之间也有其他……”</p><p>就在秦若霜准备说明自己心中真实想法的时候。</p><p>她们身后忽然传来了张流的尴尬咳嗽声。</p><br></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>
