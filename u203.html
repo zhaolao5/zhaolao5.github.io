@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>胡桃黄本子-蔴豆传媒网站</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到胡桃黄本子</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于胡桃黄本子</h2>
+<p>胡桃黄本子<p>土地灵，顾名思义就是依附在特定地域的一种特殊灵体。不仅有着相当广泛程度的传说，甚至在现世某些地方还会将其作为神灵一类的进行供奉。</p><p>而实际上，在冥界人的认识里，这只是一种地域性质的异灵罢了……基于人类外溢的灵力，以该性质的传闻作为指向聚集而形成。</p><p>异灵不存在什么理性，全凭本能行动。不说什么保佑，成型到一定程度，甚至会主动捕食吸收周遭的灵力来维持自己的存在。</p><p>“如果仅仅只是一片工地作为活动范围……甚至还只限制这几层楼，那它的强度就不会有多高。”</p><p>根据学校学习到的知识为帝讲解分析着，贝拉多娜知道这家伙不可能了解那些常见异灵的分类和性质规律。</p><p>“一般来说，算了不用一般了，这是异灵绝对没法突破的一种铁律，也是我们用来分析异灵强度和危险性的重要手段。”</p><p>为什么死神行动前要摸清楚每个灵异事件的发生条件和规律？自然不只是为了找到对方，更重要的是这些信息能够判断异灵的强度。</p><p>出现条件和行动规律越是复杂，异灵的强度就越夸张。更有甚至，能把这份出现条件转变为属于自己的因果级别能力。</p><p>比如说冥界很出名的危险异灵，曾夺走无数死神生命，最后由几位传奇所讨伐的存在——域园凶灵。</p><p>名号听起来很拉胯，出现的条件苛刻到需要在特定时间，在指定的园区位置里，在某个台阶位置来回走多少步，才能进入它存在的特殊位域。</p><p>而它的可怕之处也与这些规律有关，即只有在进入之后，在相反的时间和相反的位置，才能够对它进行干涉和讨伐。</p><p>若是不知道这点的死神进去后贸然行动，只能是看着镰刀挥空接触不到一丝一毫，被对面单方面的屠杀。</p><p>而相对的，出现条件和行动规律越简单的异灵，就会越为弱小。而土地灵这种类型的异灵，判断方式就更简单了。</p><p>只需要判断对方的活动范围就行了，这种异灵的活动范围越大，强度和危险性就会越高……这种只能在某栋楼内特定楼层活动的，怎么都不会强到哪里去的。</p><p>“不过这只应该是复性的异灵，是结合了土地灵部分性质的存在。同时有限制时间和人员的条件，结合曾为坟地这点吧……”</p><p>结合这些信息，贝拉多娜很轻易地就判断出，对方的能力表现应该同骷髅一类的有关系。说不准这只异灵，就是以复数骷髅的形式出现的。</p><p>“虽然但是吧，优等生你说的这些，小菲妮不是都让人总结写在这里了吗？”</p><p>指了指纸条上的内容，帝的拆台一时间让贝拉多娜很没有面子——就不能让我在你面前秀一波分析能力吗？！你家渡鸦把事情都办完了，我还怎么表现啊！</p><p>“不过话说回来，菲妮为什么要让人写在纸条上啊？不能用灵显绢吗？”</p><p>贝拉多娜对着那张纸条反复观察了许久，确定只是普通的纸张和普通的墨水字迹而已，这也是让她感觉奇怪的地方。</p><p>冥界的鸟类虽然能理解人类的语言，但想要同人类表达想法还是会因为语言不通而异常困难的，不然也就没有灵显绢的事了。</p><p>那么除开买不起灵显绢的可能，贝拉多娜想不通为什么菲妮缇娅要兜一个大圈子，选择让人代笔来书写下情报这种麻烦的形式。</p><p>不用灵显绢，那就只能让已经成长到足以化形的渡鸦来化形书写人类的文字了。</p><p>但这种级别的大佬，可不是好找的，能化形的渡鸦，搭档的死神有一个说一个，不是传奇也是一等一的高手。</p><p>“你家这只人脉还挺厉害？还是说它有什么其他不知道的交流方式？”</p><p>“我觉得单纯只是小菲妮是骨雀，不是灵鸦……所以用不了灵显绢。”</p><p>这么说好像也有道理？也不是什么重要的事情，小小疑惑一下这事也就这么略过了，接下来俩人要做的，就是去验证这份情报的可行性和真实性了。</p><p>当然肯定不是怀疑某只小雀会欺骗和坑他们，而是收集情报大部分来源于他人的传闻，难免会有一些误传和缺漏。</p><p>异灵有一个算一个都是狡猾无比的存在，些许的纰漏都有可能会招致不可挽回的后果，否则死神也不会成为冥界第一的高危职业了。</p><p>“总而言之，晚上去看看是吧？那要先睡会觉吗？反正小菲妮也在睡觉，现在睡晚上起来也有精神。”</p><p>“你要说这种话，我可是能告你职场x骚扰的。”</p><p>看着眼前这个没正经的家伙拍着床铺好像一副邀请自己的模样，贝拉多娜真的很想拿镰刀敲他脑袋两下。</p><p>“嗨，优等生，我们俩合不来的啦……我喜欢大的！而且虽然都是小小只的，但比起你，我还是喜欢那个撩人的魔术师多点。”</p><p>“呵呵，您也高不到那里去，谢谢。”</p><p>当然这只是嘴硬，帝的身高在冥界算是男生的正常程度，而贝拉多娜就不是了……</p><p>“好了不说了，休息去了，你别晚上起不来，闹钟你自己调，我可不会到时候喊你的。”</p><p>深知这个话题说下去只会让自己丢面子，某个大小姐立刻略过了这个话题，打开门溜回自己的房间去了。</p><p>站在桌子上的海德拉见状，也是微微鞠身对着帝行了一个礼，便扑腾着翅膀朝外边那位娇小的大小姐追过去了。</p><p>“嗨～大猫萝莉……以前搁那和只猫一样抓鸟，现在也能和灵鸦混在一块了。”</p><p>稍加调笑了一句，帝伸手将一直待在自己肩上的菲妮捧了下来。难得看到对方入睡的模样，他也忍不住仔细打量了自己的这位小搭档一番。</p><p>娇小往往和可爱挂钩，但这骷髅丧尸一样的渗人外貌还是算了吧。明明是鸟类，愣是一根羽毛都没有，只有翅膀上有些看着像是羽毛形状的骨骼，浑身都是光秃秃的。</p><p>凸出的肩胛骨更是能向下延伸的比腿还长，甚至这会儿帝手上撑着身子的，都不是菲妮的爪子，而是这两块畸形的骨头。</p><p>明明冥界的生物因为灵力充裕，颜值普遍高的夸张，怎么会诞生出骨雀这种，好似招惹了冥界本身一样的丑陋渺小生物呢？</p><p>“只能说小东西长得真特么别致，被人嫌不是没理由的……”</p><p>最后看了半天，帝也只能给出这种和其他人没啥区别的评价了……</p></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

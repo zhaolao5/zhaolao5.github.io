@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>禁漫回家的路-禁漫回家</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到禁漫回家的路</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于禁漫回家的路</h2>
+<p>禁漫回家的路<p>精灵族基本都居住在人烟稀少的西域荒林，那里的魔物稀少却更加凶猛神秘，精灵之森里的动植物也更危险，比如说，</p><p>南境这边最大的蜘蛛也就一个成年人那么大，可到了精灵之森，那就是被那边的土著蜘蛛当小饼干吃的份。</p><p>然而就算如此，猖獗的奴隶团队依然热衷于为了金币赌上性命，去西域捕捉诱拐精灵，然后高价售卖——这并不是什么新鲜事。</p><p>所以啊，实力不足的精灵出不了精灵之森。</p><p>更别谈当个吟游诗人游走尘世，用音乐来记录史诗了。</p><p>不过……</p><p>维耶娅目不转睛看着手腕上绑着的溯光石发带，上面刻着一行古老精灵文。</p><p>她不认识精灵文，但以前芙拉薇尔给她讲过这行文字的意思。</p><p>“这是幼崽归群，恶龙退散的意思哦。”</p><p>爱瑟琳一边微笑解释，一边擦拭着自己的精灵细剑，</p><p>“很久很久以前，世界树最高枝上住着银鹿奥莉安娜——她不是鹿，是星辰碎片织成的梦境保管员。</p><p>每晚要给所有的精灵幼崽盖美梦被角的她，却被虚空恶龙诅咒，鹿角生锈。眼看着美梦要漏进深渊…”</p><p>“她把被诅咒的那只鹿角折断了，弃卒保车。”维耶娅接了一句。</p><p>“……嗯……嗯！”爱瑟琳看向面前这只人族幼崽，惊讶道：“你听过这个故事?”</p><p>“就知道这一段……”维耶娅点了点头，又摇了摇头。</p><p>“那你还蛮福缘深厚的呢！”爱瑟琳收起自己擦拭完毕的精灵细剑，用力戳了戳维耶娅的额头，笑道：</p><p>“大多数人类可一辈子都听不到这个故事呢！”</p><p>见维耶娅面露不满，爱瑟琳又变戏法般拿出一支蜂蜜棒递给她，把讲到一半的故事补充完整：</p><p>“面对恶龙时，银鹿奥利安娜折断那只角的创口，喷涌的不是血，而是成百上千个被守护过的精灵孩子睡梦中呼出的热气——那些热浪把恶龙鳞片烫出窟窿！”</p><p>这是你们精灵族特有的童话故事吗？维耶娅想反问，但爱瑟琳正在兴头，她也不好打扰。就当做是等船时的异族故事会吧。</p><p>“受伤的奥莉安娜坠落人间，被群狼环伺。这时林间窜出个抱着破布偶的人类小女孩，那竟用自己的发带把恶龙鳞片改造成捕梦网！”</p><p>“不可思议吧？更不可思议的是那个小女孩忽然长出了精灵耳朵，”爱瑟琳眨了眨眼，“传说她成了首位人类精灵语教师。但这不是重点，重点是——”</p><p>“传说里每一块溯光石都来自银鹿的断角末梢。当精灵族孩子遇到危险时，只要对着光喊‘奥利安娜欠我一个美梦！’就能获得星光的庇护。”</p><p>“后来后来银鹿化作星辰，但每个精灵成年时都要经历祂的断角之痛。”爱瑟琳心有余悸的揉了揉自己的额头，“获得这块溯光石我可是疼了三天三夜——所以不准弄丢！毕竟你现在是我的共犯…啊不，是共梦同谋～”</p><p>“这么贵重?”维耶娅一愣，两口吃完蜂蜜棒，把手举到银发精灵面前，“那我不要了！”</p><p>“不准不要！这是对幼崽的庇护。”</p><p>“嗯，好吧。”维耶娅收回手，昏昏沉沉：“船怎么还没到…我都想睡觉了。”</p><p>“放心睡吧。等船到了我喊你哦。”</p><p>“谢谢…”</p><p>“不用谢，我们现在是朋友嘛。要来一首精灵族的摇篮曲助眠吗？很有效的哦……”</p><p>“嗯…需要……”</p><p>话还没说完，维耶娅就握着船票靠在休息椅上，蜷缩成一团很快就睡着了。</p><p>“Zzzz...”</p><p>“好吧。”</p><p>爱瑟琳眨了眨眼，她有些诧异这只人类幼崽的睡眠状态，“看来是不需要了……”</p><p>码头上的紫兰花旗无风自动，轻悠的旋律在集装货箱上方打着旋，落在旗杆上的鸽子歪着头，好奇看向那位正吹奏的精灵吟游诗人。</p><p>突然！</p><p>咸湿的海风裹挟着神秘的气息，从远方的水域上刮过来。</p><p>维耶娅手里攥着的船票烫了起来，她皱了皱眉头，缓缓睁开眼睛。</p><p>码头正西方向传来海浪的哗啦巨响，海平线陡然凹陷，仿佛被看不见的巨神狠狠砸了一锤子！</p><p>码头的水手开始在码头奔跑起来，齐齐的朝泊船位冲去，不知谁喊出了声：“潮信乱了！”</p><p>码头的青色石砖缝里竟钻出成片蓝盈盈的风铃草，朝着虚空摇曳！</p><p>这是人族联盟四大顶尖魔法方舟之一——星光铃兰号的降临前兆。</p><p>三百道冰裂纹在暮色中炸开，整片海域瞬间冻结成钻石般的星轨，浪尖保持着迸溅的刹那形态。</p><p>从冰晶迷雾里刺出的独角兽桅杆，让所有铁匠铺的刀剑开始共鸣低吟。</p><p>当船首的月光水晶割开最后一道雾障时，蹲在瞭望塔顶的占星学徒尖叫起来——那根本不是航行，而是整艘船在冰轨上跳华尔兹！</p><p>被船尾搅碎的冰渣溅到空中，化作虹色萤火虫群扑向码头，仿若碎星。</p><p>蓝白色的方舟从天际航来，高耸的船舷仿佛摩天大厦，漆黑的魔晶巨炮指向虚空！</p><p>这艘巨型方舟大得像一座城市，好在这座码头的吞吐量够大，能容纳下这艘庞然大物。</p><p>码头出聚集了一大批人，有冒险家、铁匠学徒、酒馆老板……</p><p>甚至连航海经验丰富的水手和巡逻骑士都被吸引过来。</p><p>他们目眩神迷的瞻望这艘，象征着人类顶尖造物水准的征战方舟。</p><p>船靠岸时没有锚链声，唯有上千盏盏风铃草灯笼齐唱赞美诗。</p><p>哗啦啦的齐整脚步声从甲板上传来，一队王都的金甲骑士齐步走到船舷，一字排开！仿佛一堵黄金浇筑的城墙。</p><p>这时，一个披着勇者甲胄的人影缓步走来，如尖刀般的身影让金甲骑士们纷纷后退，为她让出了一个身位。</p><p>“罗蒂莎……回溯勇者。”</p><p>维耶娅低声喃喃。</p><p>“你也听说过这位勇者吗？”爱瑟琳隐秘的碰了碰维耶娅的肩膀，饶有趣味的看着那位高高在上的勇者：“我以前只听说过，这还是第一次见呢……不愧是勇者啊，漂亮又英气十足……唉，就是没有胸。”</p><p>“……”维耶娅没有说话，只是攥进了手中的船票。</p><p>“有票的人赶紧上来吧，我现在可没时间陪你们过家家。”</p><p>罗蒂莎接过金甲骑士递过来的白色军官服，哗啦一下披到身上，她看着码头大气不敢出的人群，以轻蔑的声音说：</p><p>“怎么？连城主都不来迎接吗？一晚上三次泣血求援，现在是没脸出来吗？呵呵，还是说这些年所谓恪尽职守，不过是拿我王都子民的尸骨喂肥了城墙后的蛆虫？”</p><p>“喂，那边的小骑士。回去告诉你家主子，我叫德诺纳斯·罗蒂莎，镇守王城的勇者。你们可以选择死还是活。”</p><p>“想死的话就继续像老鼠一样躲着，想活的话就滚出来和我一起去战区！”</p><p>爱瑟琳低下头，对着维耶娅小声说：“果然不能以貌取人，这位勇者够劲！好一个大凶之物！”</p><p>维耶娅轻轻摇头，竖起手指挡住嘴唇，</p><p>“嘘。”</p></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>
