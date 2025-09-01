@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>麻豆传媒-熊猫导航</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到麻豆传媒</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于麻豆传媒</h2>
+<p>麻豆传媒<p>鸿德三年秋，鬼影山脉。</p><p>山腰破庙的月台前，浑身是血的少年晀望着空中的那轮红月，心脏无法抑制地狂跳。</p><p>眼前的寺楼不足两丈高。</p><p>屋檐陡峭，匾额积尘蒙垢，只能隐约看清“心刹”二字。</p><p>季晏清谨慎地推动寺门，幸好，门未上栓。</p><p>但就在门扉开启的瞬间，一阵诡异的低语由耳畔传来，令人毛骨悚然，好似那降临凡尘的最终黑暗。</p><p>[前面的区域，以后再来探索吧！]</p><p>“咳咳咳”</p><p>季晏立刻剧烈地咳嗽起来，内心暗自吐槽道：“没活整了可以咬打火机，屑旁白！”</p><p>自他转生到《苍澜神女录》的世界以来，那骚气十足的声音就时不时出现在他的脑海当中。</p><p>起初他还以为这是穿越者自带的金手指，可很快就又打消了念头。</p><p>毕竟，谁会把整天蛊惑自己去青楼狂嫖烂赌、光天化日调戏民女、深夜带着礼物（皮鞭和蜡烛）去拜访年轻美艳的少妇，又只能讲两句骚话，而无法提供任何实质性帮助的旁白称为金手指。</p><p>大无语，家人们，有个下头旁白整天骚扰我。</p><p>《苍澜神女录》是一款美术水平顶尖且画风贼涩的古风恋爱游戏，但自上线以来便争议不断，其剧情不能说是纯爱故事，至少也可以说是牛头人巨著。</p><p>这款游戏有着三十多条的世界线，几十种不同结局，但无论是哪条世界线，可怜的主角却都被黄毛反派牛得死去活来。</p><p>而那些花容月貌的女主们无不遭其毒手，轻则失身，重则惨遭**……</p><p>纵使最后黄毛反派被成功反杀，男女主间彻底破碎的感情，却再也无法复原。</p><p>剧情的绿色程度，让玩家一度怀疑作者是不是受过什么严重的心理创伤……</p><p>踉跄着踏进屋内，掩紧门扉后，季晏清无力地靠着朱漆剥落的木质屋桩缓缓坐下，近乎虚脱。</p><p>破庙内神象毁坏，铜炉倾倒，蛛网结织，一尊三首六臂的佛像狰狞可怖，显得尤为诡异。</p><p>被锐痛攫住的身躯颤抖不已，殷红的鲜血仍在不断渗出，肢体也渐渐失去知觉。</p><p>明明离邺城不过半日的行程，可恶啊！</p><p>毫无疑问，他…快死了。</p><p>临死前人的思绪总是容易多想的，来到这个世界后的景象如幻灯片般在他脑海中闪过。</p><p>转生后季晏清的身份并非是主角，而是那跟他同名同姓的反派，炎夏王朝开国功臣，魏王季阳的嫡长子，也是在所有世界线沾污女主的唯一指定黄毛。</p><p>其在原著中的人物形象不能说是品德高尚，至少也可以说是狂嫖烂赌，欺男霸女对世子殿下来说就是家常便饭，每次行凶作恶恨不得把鸡蛋都给它摇成散黄。</p><p>也许是苍天有眼，也许是游戏bug。</p><p>在他退婚燕国公二小姐归来的路上，车队居然遭到了一队马匪的无耻偷袭，对方招式凌厉狠辣，配合得天衣无缝，一看就是专业团队。</p><p>所幸魏王府的亲卫以命相搏，他才能趁机逃入鬼影山脉，挣得一线生机。</p><p>轰隆……</p><p>惊雷电闪骤然照亮夜空。</p><p>屋外暴雨倾盆而下，彻骨的寒意伴随着失血所带来的昏厥感实在难以抵挡。</p><p>季晏清的精神很是恍惚，仿佛随时都会失去意识。</p><p>[临死之时，你开始哀怨为何平时没有听取伟大神圣旁白的建议，否则也不至于带着尚未一龙戏五凤的遗憾地离开这个世界]</p><p>“屑旁白，我还没死呢…”</p><p>他强撑着精神使自己保持清醒，有气无力地呻吟道。</p><p>[屑旁白？你很快把这个愚蠢的想法抛之脑后，因为你注意到门外似乎有些情况]</p><p>虽然旁白很屑很不正经，但话多半还是靠谱的。</p><p>季晏清扭头朝着门外望去，屋外雨似珠帘，丝毫没有异样，除非是遇见女鬼，否则…</p><p>嘎吱──</p><p>轻掩的门扉突然被人推开，踏入屋内的是一名面戴薄纱的妙龄少女，身段窈窕纤柔，穿着件干练的赤红劲服，玉峰微微隆起，已初具规模，腰间佩剑，通体墨色的马面裙滴水不沾，</p><p>掩面薄纱盖不住她的气质，既有朱门绣户千金小姐的典雅贵意，亦有江湖儿女的可爱灵气。</p><p>[据说女鬼喜食男子阳精，死前你或许还能免费体验一次特殊服务，既然无法抵抗，不如纵情享受最后的愉悦］</p><p>然而，进门的红衣女子却不是鬼怪。</p><p>红裙、面纱、名剑［承影］…熟悉的物件让季晏清立刻认出眼前人的身份。</p><p>[血影蝴蝶]姬清焰，罗刹古宗真传弟子，也是原作中可攻略女主之一。</p><p>意识到来者身份，季晏清瞬间紧张到了极点，身躯绷紧，肌肤与衣物间被凝血粘连，极为难受。</p><p>对他而言，这还不如来只眉清目秀的女鬼。</p><p>身为女主的姬清焰出生书香门第，其父姬文更是新科状元，官至御史大夫。</p><p>但在她六岁那年，姬文却遭朝中党争牵连，领导的清流派系全面惨败于以宰相为首的权臣派系，被判处谋逆大罪，屠灭满门。</p><p>灭门这类脏事是没人乐意去做的。</p><p>但那时恰巧有一位异姓诸侯王在先帝时跟错了皇子，便连夜亲屠了姬家三十余口，独有姬清焰幸免于难，后被罗刹古宗掌门收养。</p><p>而那位异姓诸侯王不是别人，正是魏王季阳。</p><p>无论姬清焰是否跟那群马匪是一伙的，只要被她知晓自己的真实身份，便绝无活路。</p><p>在游戏的所有世界线里，姬清焰是为数不多成功反杀黄毛的女主之一，魏王世子共有的三十六种死法中，竟有整整十九种都跟这位姬女侠有关。</p><p>姬清焰，人送外号“季晏清杀戮机”。</p><p>命运紧紧交织的两人目光相视片刻，不免有些小尴尬。</p><p>刹那间，只见寒芒一闪，泛着寒光的剑芒死死架在他脖颈处。</p><p>砰！</p><p>当季晏清回过神来，早已被姬清焰按倒在地，左肩骨更是近乎碎裂。</p><p>“痛痛痛…要断了，要断了！”</p><p>“你是何人？又是为何来此？”</p><p>半夜三更，来鬼影山脉的绝非善类。</p><p>剑刃的寒意通过肌肤传至体内，只要那柄剑再稍往前一点，便足以取他性命。</p><p>然而，季晏清却并未如同表面上那般惊慌失措，相反他那颗悬着的心总算是平稳落地。</p><p>幸好姬清焰没有认出他。</p><p>按原著中的剧情来看，少女此时应该才刚离开师门，尚未搜罗有关魏王府的情报，自然也不知道魏王世子的容貌。</p><p>再者此刻少年的落魄也着实很难让人联想到邺城中的纨绔子弟。</p><p>“小人叫做季三，是魏王府世子的伴读书童，跟随的车队路遇马匪袭击，才不小心误入此地，还求大侠饶小的一命！”</p><p>季晏清战战兢兢地答道，眼神中满是害怕。</p><p>听见魏王世子这几个字，姬女侠神色陡然转变。</p><p>骇人的威压一点点从倾城女子的剑上弥散而出。</p><p>神志恍惚间，他仿佛已被斩下数次首级，虽然是在幻境当中，可那种感觉却无比真实。</p><p>“季晏清现在人在何处？说出来我或许可以考虑饶你一命。”姬清焰咬牙切齿地质问道。</p><p>“世子殿下没有跟我们走一条路，自燕地返回，他花重金买了两个胡姬舞女，不想被下人打扰，独自抄小路直奔邺城去了。”</p><p>听着虽然荒唐，但却意外地符合他这些年苦心塑造的纨绔子弟人设，贪花好色又庸弱无能。</p><p>听闻此言，姬清焰移开剑刃，美眸从季晏清身上仔细扫过，神色凝重。</p><p>“你失血过多，活不过今晚的，我可以救你，但你必须答应我一个条件。”</p><p>“什么条件？”</p><p>季晏清苦涩地问道，他知道自己根本没得选。</p><p>“带我进魏王府，杀了季阳狗贼和他儿子”，姬清焰漠然说道。</p><p>“杀…杀魏王和世子！”</p><p>季晏清赶紧吓得往后挪了挪，双腿不停地打颤。</p><p>“女侠，小人杀只鸡都抖，吃了熊心豹子胆也不敢杀魏王啊。”</p><p>“不用你动手，带我进去就行。”姬清焰冷冷地说道，毫无惧色。</p><p>装作惊恐万分的季晏清瘫在地上，脸色苦闷得如同踩了狗屎。</p><p>思索良久后，他犹犹豫豫地说道：</p><p>“我⋯我答应你。”</p><p>片刻后，又补上一句，“敢问女侠尊姓大名？”</p><p>“姬清焰”</p><p>然而，当少女自报家门的瞬间，他眼前便出现了一块淡蓝色的虚拟屏幕。</p><p>［姓名：姬清焰］</p><p>［颜值：97.8分（绝色女侠）］</p><p>［雨夜中，你偶然遇见跟魏王府有着血海深仇的绝色女侠…当前攻略选项如下］</p><p>［选项一：大声喊道姬清焰小姐我好想做你的狗啊，抒发自己对于姬女侠滔滔不绝的仰慕之情。完成奖励：青云宝剑（玄阶上品）]</p><p>［选项二：说出自己的真实姓名，诱拐姬清焰跟你回魏王府。完成奖励：免费提升根骨资质]</p><p>［选项三：试探姬清焰的过往，得知其内心深处的秘密。完成奖励：随机属性点+1]</p><p>这么多年，屑旁白你可算干了件拟人的事！</p><p>虽然起初有些惊讶，但很快季晏清便恢复了平静，前世熟读各类网文的他对于系统早已见怪不怪。</p><p>当然，某个满嘴污言秽语的旁白还是给他带来一点小小逆天的震撼。</p><p>按惯例，遇到这种选项必选看起来最无用的随机属性点，因为它往往会加在某些至关重要的属性上，从而扭转自己的杂鱼身份。</p><p>思索片刻后，季晏清心中已有了答案……</p><p>“姬姑娘，抱歉，其实我刚才对你说了谎话，我并非什么为魏王府的伴读书童季三，而是魏王世子季晏清…”</p><p>他缓缓抬头，望着红裙少女严肃地说道。</p><p>开玩笑，这破黄油的前期路人属性都是以百来计的，后期主角各项数值更是平均百万以上。</p><p>区区+1随机属性点，打发要饭的都不够。</p><br></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

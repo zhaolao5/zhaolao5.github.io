@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>蔴豆传媒-帝王会所</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到蔴豆传媒</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于蔴豆传媒</h2>
+<p>蔴豆传媒<p>威远镖局在邺城颇有名气，其总镖头苏远山是位内外兼修的使剑高手，年轻时据说遇到过外出游历的无量剑宗掌教，指点他修行三日，因而寻常晖阳修士都不会是苏总镖头的对手。</p><p>但光阴荏苒，年过半百的苏总镖头愈发感到捉襟见肘，再难以撑起整座镖局。</p><p>这些年也是多亏铜雀商会崛起势头惊人，短短几年时间便一跃成为炎夏的第三商号，玻璃白砂糖等奇物的贸易通达四海，要押送的贵重物品也是极多。</p><p>作为邺城的老牌镖局，威远镖局自然也从中分到一杯羹，才能堪堪支撑门面。</p><p>但前些时日，镖局的二镖头见城西马员外家的二少爷当街为非作恶，出手相助，结果被人多努众的马家家丁围殴打断双脚。</p><p>更可恨的是，那马家二少爷还看上了威远镖局的苏凝月小姐，整天摇着扇子去镖局死缠烂打，想纳她作小妾。</p><p>碍于马家有财有芇，镖局众人竟只能把这口恶气嚼碎了，往肚子里咽。</p><p>不远的的街道传来嗒嗒马蹄声响，抬眼望去，只见一名身着红衣黑裙的少女，轻纱掩面，身后还牵着匹枯瘦的老黄马，正不紧不慢地朝镖局那边敢。</p><p>季晏清坐在老黄马的背上，头戴假面，容貌清秀耐看，但远不及原貌的祸国殃民，腰间配着柄锋锐的青锋剑。</p><p>“你打算什么时候把［承影］还给我？！”</p><p>姬清焰生气地质问，她这次出来就是为趁机逃离魔爪，结果季晏清那个混蛋居然把［承影］押扣在了魏王府，还让自己扮作护卫，给他牵马。</p><p>“君子一言既出，驷马难追，我玩腻后定然双手奉还女侠，绝不食言。”</p><p>望着季晏清诚挚的目光，姬清焰心底顿时冲出想要咬死这家伙的冲动。</p><p>但想到她离开魏王府前曾以宗门的名义发誓，说此番绝不会伤害魏王世子一根寒毛，便只能将心中的怒火强忍下来。</p><p>“若是你拖着不还怎么办，总要有个准日子吧？”</p><p>“那就两个月后吧。”思索片刻，季晏清倒也没给姬女侠下套，干脆利落地答道。</p><p>“两个月也太久了，明天就还我怎么样，本女侠日后肯定会感谢你的。”姬清焰娇声说道，丹凤眼中带着三分期许七分羞涩，简直要让人心神沦陷。</p><p>“你这价未免也太贪心了”，季晏清对她低劣的勾引手段毫无反应，无语地瞥了她一眼，继续说道：</p><p>“但本世子心善，如果姬女侠的价码足够诱人，那我还是很愿意承人之美的。”</p><p>姬清焰：“……”</p><p>“例如杀魏王世子的时候一剑刺心，别让他死得太痛苦。”</p><p>听到自己内心的真实想法，姬清焰下意识地点点头，表示同意。当她反应过来时，刚才的动作早就被季晏清看在眼里。</p><p>“不是不是，刚才我眼睛里进沙子了，没听清你刚才讲什么。”姬清焰慌忙解释道，一时间也顾不上逻辑通不通顺。</p><p>季晏清微微一笑，说道：“没想到姬女侠这般不小心，至于剑的事，三个月后再说。”</p><p>而当姬清焰想要继续纠缠之际，耳畔却忽地传来某个混蛋的提醒：</p><p>“姬女侠再往前走两步，就路过威远镖局了。”</p><p>姬清焰这才停下脚步，向左转身，不情不愿地把马牵进威远镖局里。</p><p>……</p><p>根据魏玉府密探查到的消息，那细作活着的时候经常来这家镖局，顺路寄送些银两绸缎给家里人，这放在府里并不稀奇。</p><p>只是最近一月内，她一连九次前来威远镖局，不仅次数多得令人生疑，而其中有四次甚至未曾寄送任何物件，便草草离开。</p><p>这些消息他若是想要查探，都是能轻而易举弄到手的，整座邺城几乎都会处于魏王府的视线内。</p><p>可对方却仍这般冒险，只能说明那名婢女的死亡绝非临时起意，而是事前就已把她当作弃子。</p><p>都察院、柳相、萧家，以及龙椅上的那位……真是够麻烦的。</p><p>季晏清暗自感慨道。</p><p>镖局里头很是热闹，三四个小厮正忙着将几只贴着封条的大木箱搬上马车，满满地装了四车，而镖师们则小心检查着护具，磨锐兵刃。</p><p>刀剑底下混口饭吃，再怎么小心也不过分。</p><p>季晏清侧身下马，眼角余光忽瞥见屋内走出位淑雅倾城的女子。</p><p>那少女一袭淡蓝袄裙，肌如新雪，眸盈秋水，青丝垂落漫至腰臀，身段袅娜柔美，在那秋日晨曦的映衬下，更显得娴静温柔，宛如空谷幽兰。</p><p>不等季晏清反应过来，眼前便再次浮现出一块虚拟屏幕。</p><p>［姓名：苏凝月］</p><p>［颜值：96.4分（画中仙子）］</p><p>［喧嚣的秋风中，遥望着恬静美好的佳人，你内心不禁有些触动，想要更进一步……］</p><p>［选项一：默默地望着苏凝月，抱以微笑，完成奖励：悟性大幅度提高]</p><p>［选项二：狠狠地𤩹咚她，悄声说道，女人你成功引起了我的注意，完成奖励：耐力大幅度提升]</p><p>［选项三：到她耳旁悄声说道，苏小姐，你也不想威远镖局在邺城混不下去吧……完成奖励：气血大幅度提升]</p><p>选项的奖励倒是大差不差，但二三选项未免太容易引人注意，万一暴露身份就糟糕了，而且从长远来看也是悟性的提升更为有利。</p><p>季晏清的视线悄然会聚，静静地欣赏着行似弱柳扶风的少女。</p><p>苏凝月身为总镖头的长女，被教养得极好，自幼便饱读诗书，琴棋书画皆有所涉猎，若非她性情静娴内敛，才女之名恐怕早就名扬邺城。</p><p>如今威远镖局日渐衰落，待字闺中的苏凝月自愿站出来帮衬，与众人共渡难关。</p><p>“诸位，押镖路途艰辛，凝月自幼体弱帮不上忙，只能亲手做了些糕点，还望大家不要嫌弃。”</p><p>苏凝月勾起耳畔的青丝，柔声说道，远看宛如一束微绽的兰花，高挑纤柔，清媚而不失端庄。</p><p>见此情形，镖局众人顿时欢呼喝彩起来。</p><p>“能吃到大小姐亲手做的糕点，是我们这些糙人的福气，怎么可能会嫌弃。”</p><p>“是啊，大小姐已经做得很好了，没必要自责。”</p><p>“秋冬之交要押到镖本较不多，侍到明年开春，咱们威远镖局的生意肯定会越来越好的。”</p><p>听着众人暖心的言语，苏凝月很是动容，旋即屈膝行礼道：</p><p>“凝月在这里代威远镖局谢过诸位。”</p><p>当她仰起粉黛峨眉的脸颊，却偶然与一名黑衣少年对上视线。</p><p>季晏清独立寒秋，眉锋清冷，一双桃花眼却含着几分柔情，很是勾人。</p><p>好漂亮的眼睛……</p><p>苏凝月微微呆了下，心神不稳，险些踉跄着摔倒在地，所幸被一旁的婢女及时扶住，才没在众人面前出丑。</p><br></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

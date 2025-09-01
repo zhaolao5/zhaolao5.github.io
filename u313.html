@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>领头羊导航-被草到出水</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到领头羊导航</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于领头羊导航</h2>
+<p>领头羊导航<p>【殿下这是要去什么地方？何必如此大张旗鼓的？】</p><p>走在最前方那位高傲的烈孔雀公主微微睁开一只眼，看清拦路者的样貌后，不由得露出了厌恶的神色。</p><p>眼前的烈孔雀，瞎了一只眼，半边身子的羽毛尽数被毁，剩下的羽毛也是好不到哪里去。</p><p>对于以美自傲的烈孔雀一族来说，这样丑陋的外貌可比杀了它们还要难受，更不能说接受这样的存在居然是自己的同族。</p><p>不过被毁容倒也是轻的，王室的教养也不至于让一位公主如此露骨的表现出嫌弃之意，这样有失它们高傲的风度。</p><p>最让这位小公主不能接受的是，这只拦路的烈孔雀，眼中没有一丝属于族群的骄傲和自信……</p><p>颓废和丧意几乎溢出身外，我们一族可是最高贵的存在，你这还有一点烈孔雀的样子吗！</p><p>【呵，本少爷有和你这么个东西交代的必要吗？看清楚了，王室队伍出行，识相点赶紧滚……就不追究你冒犯逾越之罪了。】</p><p>不过旁边随同的烈孔雀卫兵倒是认出了对方的身份，微微侧身过来请示后，在这位小公主的耳边低语了一阵，后者当即露出了诧异的神色。</p><p>这一带是烈孔雀领地的边缘区域，平常王室都不会搭理这边，是由当地的烈孔雀部族管理的。</p><p>而眼前的这位，则是号称该部族最勇敢无畏的战士，号称当地烈孔雀的利刃坚盾，作为第一勇士受尽最终和爱戴。</p><p>曾与两只堕鹰交战不落下风，以华丽的姿态和无双的武力而自傲，几乎是当地口口相传的英雄级别角色，连遥远的王室那边也有些许听闻它的传说。</p><p>对于这样的勇士，即便是王室成员，也得尊敬三分……但这位烈孔雀公主看着眼前毫无斗志和傲娇的存在，很怀疑这段信息的真实性。</p><p>身上的惨状是惨烈战斗留下的勋章吗？显然不是……连周遭的普通烈孔雀都看不出对它有什么尊敬，只有鄙夷和排斥而已。</p><p>【两百多年前，它突然就变这幅模样回来了，整只鸟变了个样，不再上进，勇敢，骄傲……只是一味的堕落。】</p><p>旁边的卫兵轻声解释着，烈孔雀寿命悠久，这位在所有孔雀眼中有着大好前程的无畏勇士，却在壮年之际突遇变故，颓废到了今天。</p><p>谁都不知道它遭遇了什么，即便询问它对此也是绝口不提，眼中的灵动神采已然不复存在，抛弃了所有的荣耀和骄傲。</p><p>顿时关于它的流言四起，有的说它是被得罪过的冥界猛禽群起报复了，有的说是被其他种族生物袭击了……恶意揣测一些的，则是觉得这是它的本性，只不过如今才显露出来。</p><p>【既然如此，这种自甘堕落的垃圾就别站出来碍眼了，赶紧滚蛋吧，看在你曾经的贡献和荣耀上，本少爷不治你的罪。】</p><p>被点名的独眼烈孔雀微微仰头，并没有让路的打算。其实这件事与它毫无关系，本来它应该继续待在路边受尽白眼，独自哀伤的。</p><p>但今日不知为何，它有一种非常不好的预感。作为继承了古老血脉最多的一族，烈孔雀的灵感是非常准确靠谱的，因此它才站出来尝试阻拦对方。</p><p>【殿下不如听听我的故事再做决定？应该不少同族，都好奇我的遭遇吧？】</p><p>本是不愿提起的往事，但独眼孔雀的直觉告诉它，今日若是不提，将会又有一只烈孔雀步自己的后尘。</p><p>也不等对面回答，独眼孔雀便自顾自讲述起来……</p><p>作为当地烈孔雀的一代天骄，独眼孔雀曾经也是美貌过人，种族血脉流淌的骄傲和自尊心更是在一般烈孔雀之上。</p><p>看不起任何生物的它，在外巡逻时到处袭击碍眼的生物，战斗时面对其他生物更是无畏，即便是猛禽，也无法让它退缩半步。</p><p>收获了同族们的荣誉和赞美，被这些事物包围的独眼孔雀，一度认为自己的生涯会一直完美下去，自己会成为当地部族最强大美丽的存在。</p><p>直到那天，日常出来巡逻的同时顺带欺负一下那些碍眼生物的它，发现了一只丑陋的小东西，正在从谷底飞出。</p><p>骨雀，一种和烈孔雀无冤无仇，却频繁遭到它们针对的倒霉生物。原因无它，纯粹是两族之间，简直就是镜子的两面一样，完全相反。</p><p>骨雀丑陋，孔雀美丽，骨雀低贱，孔雀高贵……本身以血脉自居自傲的它们，见到这群继承血脉最稀薄的小东西，骄傲和自尊让它们打心底会去厌恶和憎恨骨雀。</p><p>所以理所当然的，独眼孔雀出手了，准备将这只小家伙撕成碎片，以弥补对方脏了自己眼睛的罪过。</p><p>骨雀这种东西虽然飞不高，也许几棵树的高度就坠落……但偶尔还是会出现那么几个族中天骄，成功得从峡谷底部飞出的。</p><p>但可惜的是，即便成功飞到上边，当地的生物也绝不会对这种丑陋的小东西友好，大多数都是直接在上边歇脚过程中，被无情虐杀。</p><p>所以这种事情就是常态了，独眼孔雀也没有什么心理负担，不过是一只骨雀而已，杀了便杀了。</p><p>但这一次，它翻车了……虽然听起来很不可思议，号称当地最强的烈孔雀，面对冥隼堕鹰都不落下风的它，居然败在了一只骨雀的爪下。</p><p>不仅失去了一只眼睛，被无情捏碎了自己的骄傲和信仰，最终还是浑浑噩噩的逃回来，从此只能苟且偷生。</p><p>【哈哈啊哈哈，所以……所以你被搞成这样，居然是因为输给了一只骨雀？天啊，哈哈哈哈！】</p><p>讥讽和嘲笑开始蔓延，若是先前对独眼孔雀还有一丝怜悯和幻想，现在包括这位公主在内，在场所有的烈孔雀都恨不得吐对方一口唾沫。</p><p>输给什么东西不好？输给一只骨雀？还被一只骨雀吓破了胆？</p><p>【我是想提醒殿下，不要太高看我们一族和轻视……】</p><p>【闭嘴！被区区骨雀吓破胆的失败者，你也敢在这里嚷嚷？】</p><p>翅膀一挥便将独眼孔雀扇到一边，这位烈孔雀的小公主直接带着卫兵一边讥笑一边离去。</p><p>看着几只孔雀离开，独眼孔雀翅膀微微抬起，似乎是想阻拦和挽留，但又缓缓放下了……</p><p>【如果只是武力，我也不至于屈服……之所以会变成这样，是因为那天，我被踏碎的，是自己的尊严和骄傲啊。】</p><p>它永远忘不了，那天被对方的爪子压住脑袋，被深埋在地下时，那只骨雀对自己字字诛心的讥讽和嘲骂。</p><p>【你们一族最值得骄傲的，是那所谓的血脉？一口一个高贵，一个自尊，一个骄傲，那你倒是飞一个给咱看看啊？】</p><p>【空有对天空的向往和冲动，结果连飞翔的勇气都没有，只敢在地上扑腾翅膀张牙舞爪的东西，也敢在这跟咱说骄傲？】</p><p>话语间利爪已经深入眼球，剧痛下永远的失去了一只眼睛的烈孔雀，更让它痛苦的，却是对方的灵魂质问。</p><p>【呐～告诉咱呗，你们体内涌动沸腾的血，究竟是你们在为古老的血脉骄傲……】</p><p>还是那份血脉，其实在为你们这群不敢飞行的走地鸡感到悲哀，正在悲鸣哭泣呢？</p></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>绿色小导航-兔子先生tz</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到绿色小导航</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于绿色小导航</h2>
+<p>绿色小导航<p>【特么的，那妮子有病吧！】</p><p>一边叫骂着，小雀扑腾着翅膀在林间快速穿梭飞行着，而她的身后，则是几只翅膀大张，快步前行的烈孔雀。</p><p>【换咱以前的脾气，咱早把你剁碎了去喂海德拉先生了，趁着咱现在脾气好了，蹬鼻子上脸是吧？】</p><p>【不过那会儿咱也不认识海德拉先生就是了……】</p><p>小声嘀咕了这么一句，菲妮回头瞄了一眼，其他的暂且不论，烈孔雀跑起来还真不是一般快，自己飞了半天愣是甩不开。</p><p>明明大张着翅膀受到的空气阻力影响更大，结果硬是力大砖飞顶着跑起来了，只为彰显自己华丽的羽毛和威慑是吧？</p><p>不过明明作为流淌着最多古老血脉的冥界鸟类，空有一身华丽的羽毛却完全不会飞行，特别是每次看到它们走地鸡一样的浮夸跑姿，菲妮都有些想笑。</p><p>连骨雀这么个没羽毛的都多少会滑翔，甚至能努力努力飞起来是吧？你们这帮玩意是真的太幽默了。</p><p>不过笑归笑，被一群烈孔雀追着跑可不是什么有趣的体验。菲妮并不是没有给自己的小树洞整整伪装，但这群孔雀王族的卫兵确实不是吃干饭的。</p><p>高傲归高傲，烈孔雀一族确实有着不错的底子，特别是这些受过训练的卫兵，追踪能力其实并不差，况且某只骨雀也并没有过于掩饰自己的痕迹。</p><p>正常不出现别人面前就好，这种程度的伪装足够了，鬼知道会有这么群专门奔着自己来的啊？你们是闲着没事干吗？抓一只骨雀干什么啊！</p><p>和前面想不通的小雀心情其实差不多，后面的这群烈孔雀其实也处在一种满脑子都是不理解的状态——骨雀是能这么灵活，飞的这么快的生物吗？</p><p>当然对比什么冥隼灵鸦之类的是差了点，但也不像是滑翔为主的骨雀能做到的灵活度吧？</p><p>场面就这么僵持住了，论速度，是后面的几只孔雀强上一些。可是能飞的就是比在地上跑的灵活，小雀可以随意利用自己身体娇小的优势在树木的枝条间穿梭。</p><p>虽然不能爬升高度，以免后面的几个大只佬直接抓住机会跃起将自己扑倒，但快被追上的话，菲妮也只需要转个向就行了。</p><p>按理来说，烈孔雀的体力远在骨雀之上，这么耗下去肯定是骨雀吃亏。可是吧，众所周知，烈孔雀是一种自尊心非常过分的生物。</p><p>所以在它们看来，区区一只骨雀，它们要消耗尽对方的体力才能捉到？这未免也过于丢脸了，于是它们互相交换眼神一波，决定采用一些战术方案。</p><p>很快菲妮就注意到身后追着自己的孔雀数量越来越少了，当然她也不会认为是后面那几个家伙体力不够跟不上了。</p><p>小雀眼角余光稍微瞄一瞄，就能发现几只烈孔雀已经分散跑开，一左一右的，以一种微妙的距离和阵型，尝试限制自己飞行的转向选择了。</p><p>右后方的孔雀跑快一些，前方自己就只能往左转向……同理也能迫使自己右转。</p><p>以这种阵型方式有规律的把自己往指定的位置驱赶，菲妮就是识破了对方的计划，也没有什么办法，属于是阳谋了。</p><p>【咱说几位啊，大家无冤无仇的，何必如此呢？】</p><p>不过这话说出来，菲妮都觉得自己有点犯蠢了……</p><p>和烈孔雀讲道理？它们要是能跟你讲道理，也不会顶着冥界第一美鸟类的名号，当选最惹人厌的存在之一了。</p><p>本想跑到峡谷边直接脱身的，但很明显对面也看破了这点，就在一步之遥的位置，小雀就这么被几只烈孔雀截住，陷入了包围圈。</p><p>【住口，你冒犯了王族，在我们一族这可是重罪，何况是你一只骨雀，完全就是死罪！】</p><p>【不是，咱冒犯你们啥了？】</p><p>【为何不屈从殿下，反抗她要将你带回的决定？】</p><p>这个神秘的问题更是让菲妮头顶冒出三个问号，忍不住对着这位出头的卫兵问了几句。</p><p>【烈孔雀能容忍一只骨雀进入它们的领地？】</p><p>【不能。】</p><p>【那咱过去了，咱在那是不是包死的？】</p><p>【不错。】</p><p>那还说个啥？过去就是必死的，咱还不能求生一下了是吧？哪怕你们这位公主没弄死咱的意思，其他的烈孔雀也忍不了，想着偷偷把咱弄死吧？</p><p>至于什么被圈养的play，算了吧，咱完全不好那口……</p><p>咱还是喜欢自由自在到处跑，为自己喜欢的事物和目的前进，退一万步说，真的要被圈养，咱死也不要你们这群烈孔雀来。</p><p>【呵，区区骨雀，被殿下当成玩物是你的荣耀……能死在我们烈孔雀一族爪下，你不应该感到荣幸乖乖就范？】</p><p>果然是一群逆天的玩意，根本讲不了道理。还是准备纠缠纠缠，拉扯下开溜吧，被这群玩意被扯上关系太恶心雀了。</p><p>就算被包围，菲妮还是有信心从这几个大只佬手上跑掉的。不过在她采取行动之前，那位烈孔雀公主倒是发话了。</p><p>【在本少爷的听闻中，骨雀从未有你这么灵动聪慧的存在。】</p><p>所以呢？就因为这个，你这是想把咱抓回去养？你还说你脑子没病？</p><p>【所以多少本少爷觉得，你能充当一个不错的稀奇玩具，打发时间……若是你不禁玩，死了，那也是你自己的问题。】</p><p>看吧，这是脑子正常的生物能说出的话吗？太抽象了。</p><p>【本来本少爷的目的就是把你抓回去惩罚和当玩具玩一玩……但是现在改变主意了。】</p><p>烈孔雀公主表情和语气徒然一变，身上展现出了一种威严的气势，像是下达某种宣判一样。</p><p>【因为不久前，本少爷得知，我们一族有一位勇士，被害得堕落颓废，失去了属于我们一族的骄傲，成为了一具行尸走肉。】</p><p>所以呢，这和咱有啥关系么？突然扯这些有的没的，你是真的闲到没事干了吧？</p><p>菲妮在心里默默吐槽着，看着眼前的烈孔雀公主，突然心中冒出了一股强烈的不安。</p><p>【而造成这一切的是你们骨雀！我，代表烈孔雀的王室，在此宣布对你们骨雀展开报复！就先从你开始！】</p><p>菲妮的表现，在这群烈孔雀看来，毫无疑问在骨雀一族中，是属于天之骄子的级别的，作为首要的报复选择是绝佳的。</p><p>但眼前的小雀完全没听进半个字，不如说她根本就没把这群骄傲的自大鬼放在眼里，只是扭头望着某个空无一物的方向。</p><p>多年的渡鸦从业经验，菲妮大概清楚这种没来由的不安代表了什么，起码不可能和周遭的这群玩意有关。</p><p>【帝？】</p><p>死神与渡鸦的联系和感应，是无视距离，乃至跨越两界的，这股没来由的不安，不免让小雀有些对自己的搭档担心和焦急了起来。</p><p>【能飞到这里还如此机灵，你这种属于骨雀一族的骄傲，就是我们……】</p><p>【好了闭嘴吧。】</p><p>丑陋的小东西突然出声打断了这位公主的高谈阔论，一群烈孔雀正准备因为她的无理而发作，却又感觉到眼前的小家伙好像气势发生了变化。</p><p>【其实以前的咱，没有这么好的脾气，只不过现在没那么大的戾气了。】</p><p>【而且吧，截止到刚才为止，因为很闲，所以咱不介意陪你们玩玩追杀游戏，配合满足下你们那无聊的虚荣心……】</p><p>爪子卷起，在地面上轻轻磨了磨，小雀一反平常的随性和有些小妥协的和事佬态度，难得露出了严谨的一面。</p><p>小小的眼睛里隐隐透露着凶光，甚至一群烈孔雀莫名从她的身上感觉到了……杀气和威胁？一只骨雀有杀气和威胁？</p><p>【咱现在有急事赶时间，走地鸡们，所以咱只说一次。】</p><p>【乖乖把路让开，咱就当什么事情都没发生过。】</p></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>
