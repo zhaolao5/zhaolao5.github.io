@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>夜色导航-在线导航</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到夜色导航</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于夜色导航</h2>
+<p>夜色导航<p>人在突然遭遇重大的事件时，往往都会表现出呆愣和茫然。</p><p>此时的陆航就处于这个状态。</p><p>他怀疑自己出幻觉了，又或者是被恶作剧。</p><p>但那锋锐的利器，和充满阴狠的声音，告诉他一切都是真实发生的。</p><p>我这是被劫匪盯上了？</p><p>这可是白天啊，而且还是黎城人流量最大的商业街，居然会有人敢做这种事？</p><p>我该怎么办？逃跑？求助？</p><p>陆航的思绪就像是一团被猫咪玩坏了的毛线，六神无主，念头杂乱。</p><p>见他没有动弹，那声音再度响起：</p><p>“呵呵，还算听话。”</p><p>“知道么，我喜欢听话的孩子，因为不听话的全被我杀了。”</p><p>阴冷的声音像是毒蛇吐着信子，使陆航浑身发颤。</p><p>他用余光朝后方望去，可以看见，站在自己身后，是个穿着灰色外套，身形高大的男人。</p><p>他整张脸都藏在兜帽中，佝偻着背，但陆航能感觉到，在那兜帽下，藏着一双择人而噬的眼睛。</p><p>陆航喉结滚动，瞳孔放大，记忆深处的一幕被拖拽出来。</p><p>在和苏栗闲聊时了解到，栗子在初中时曾经隐匿身份，前往地下世界闯荡。</p><p>这是为了磨砺她的武道，除此之外还有一点，那就是以警方的隐秘卧底，暗中调查这些藏于黑暗中的危险人物。</p><p>像苏家这样的正统武道势力，或多或少都会和警界有关系，甚至不少警员就是经过武道势力的培训，也是他们自诩正统的一大助力。</p><p>相当于在国家内部拥有一个合法身份。</p><p>而就在不久前，苏栗跟他聊过一件事，她从警方的渠道得到信息，一名杀人犯摆脱了警方的控制，目前正在大力搜查。</p><p>陆航看过那个人的通缉照片，和身后的男人有几分相似。</p><p>该不会被他碰上了吧？</p><p>得知这一点后，陆航如坠冰窖，心中的恐惧像炸弹般爆开。</p><p>虽说陪伴在苏栗身边，他了解到了很多常人无法得知的东西，但他可不是苏栗那样有武功傍身的天才少年。</p><p>他只是个平凡到不能再平凡的十五岁少年。</p><p>在一个杀人犯面前，没有吓到腿软都算他心理素质过硬了。</p><p>陆航现在无比懊悔，要是去买饮料的是自己就好了。</p><p>换做苏栗在这，绝对反手教会这位杀人犯什么叫做职业武者。</p><p>想到栗子，陆航心中又萌生出一丝希望。</p><p>只要坚持到栗子回来，就有救了！</p><p>就在陆航飞速思索着该如何稳住这位杀人犯时，那道阴冷的声音又道：</p><p>“把你的手机给我。”</p><p>陆航心弦一紧，他还想着偷偷摸摸用手机向栗子求救呢，想不到这人竟是如此警惕。</p><p>他心急如焚，要是连手机都被没收，就真的成了案板上的鱼肉了。</p><p>偏偏他们走的这条街道是个岔路，较于主道很是偏僻，一时半会竟是没有人在附近。</p><p>陆航低头瞥了眼自己的手机屏幕，在看见桌面上的一个app时，眼中迸发出一丝光彩。</p><p>这个软件，是苏栗硬给他安上的，听说是一款新研制的软件，正处于测试阶段。</p><p>他问过苏栗这个软件有什么用，苏栗很是神秘的笑了笑说，这东西可以召唤超级英雄，关键时刻可以救他一命。</p><p>当时陆航没当回事，可现在却是看作唯一的救命稻草。</p><p>毕竟苏栗最大的特点之一，就是很少说谎。</p><p>陆航点开那个软件，出现一个黑色的界面，除了一个手电筒般的开关外什么也没有。</p><p>“快点，别磨蹭！”</p><p>那声音有些不耐烦的催促，陆航咬了咬牙，按下那个按键后，将手机锁屏，颤颤巍巍的将手机朝后面递去。</p><p>灰衣男看也没看，直接将手机揣进兜里。</p><p>然后始终用刀抵住陆航的后腰，将他劫持到一旁漆黑的小巷。</p><p>而我们的武道天才少女苏栗，正在货架悠哉悠哉的闲逛。</p><p>她站在专门摆放着饮料的货架前，看着一瓶葡萄汁和一瓶蓝莓汁，小脸紧绷，像是在做着什么艰难的抉择。</p><p>寻常的男生普遍都热衷于可乐雪碧之类的饮料，可在苏妈看来，这类碳酸饮料就是危害青少年健康的一大祸端。</p><p>因此严令禁止她喝这种饮料。</p><p>虽然苏栗天不怕地不怕，但在其母上大人面前，就是被狠狠拿捏的份。</p><p>好在果汁的口感苏栗也挺喜欢的，区区快乐水，戒了就戒了。</p><p>苏栗正犹豫不决时，手机突然响了。</p><p>她从口袋中掏出手机，看了一眼，微微一愣。</p><p>而后，她有些散漫的眼光顿时变得犀利起来。</p><p>就像是出鞘的宝剑。</p><p>苏栗正想冲出去时，犹豫了片刻，还是抓起了一瓶蓝莓汁。</p><p>她小跑着来到柜台前，正打算结账，一个大叔正在买烟，却不急着结账，半倚靠在柜台，有一搭没一搭跟老板闲聊。</p><p>苏栗可等不及，直接开口道：“你能快点结账么？”</p><p>“嗯?”大叔被人突兀的打断，很是不爽的看了过来。</p><p>但在看清苏栗的脸时，惊得嘴中叼的烟都掉在地上。</p><p>着实是苏栗的颜值过于逆天了。</p><p>他甚至揉了揉眼睛，看看自己是不是没睡醒。</p><p>否则怎么会在这家小超市遇上这么漂亮的少女。</p><p>见大叔呆在原地，苏栗很是不满的咳嗽了几声。</p><p>大叔这才如梦初醒，全然没有先前的恼怒。</p><p>“哈哈哈，抱歉抱歉，耽误你了，我这就走。”</p><p>大叔打着哈哈，连忙付账抓起烟盒，然后一步三回头的慢悠悠的朝门外走去。</p><p>若不是怕冒犯到苏栗，大叔都想留在店里，认真地欣赏一会苏栗的容颜。</p><p>老板也是下意识的带上热情的笑容，瞄了一眼苏栗手上的可乐和葡萄汁，计算出价格后，在柜台的电脑敲了几下键盘，拿起扫码器，微笑道：</p><p>“麻烦出示一下付款码。”</p><p>借此老板正大光明的欣赏着少女的容貌。</p><p>苏栗还有急事，付过账后，便如一道疾风跑出超市。</p><p>望着苏栗奔跑时飞扬的棕色长发，那位买烟的大叔不由得感慨一声：“真是青春呐。”</p><p>此时的陆航，正在一步一步朝巷子深处走去。</p><p>望着前方的道路越来越昏暗，越来越偏僻，陆航的心也不禁沉入了谷底。</p><p>完了完了，没准那个变态杀人狂就是要把自己拐到这里，然后杀人抛尸！</p><p>他不会是被栗子耍了吧?其实那个软件压根什么用都没有?</p><p>那可真是“致命玩笑”，自己只能含笑九泉了。</p><p>陆航有些苦涩的想，全然没注意，背后的灰衣男目露凶光。</p><p>就像是草丛里蓄势待发，准备扑击猎物的野兽。</p><p>其握着匕首的手掌，已然发力。</p><p>就在这时，灰衣男的背后响起一道凌厉的风声。</p><p>灰衣男心中一惊，连忙转身，同时挥击匕首。</p><p>只是令他没想到的事，身后的突袭者，竟是一罐红色的可乐。</p><p>他的匕首刚砍在可乐上，可乐罐竟是如炸弹般爆开。</p><p>砰！</p><p>一股深褐色的液体，在气压的作用下，如水枪般射向灰衣男的脸。</p><p>这般变化灰衣男始料未及，可乐直接洒进了他的眼睛中，让他惨叫一声。</p><p>陆航听到身后的动响，正觉得奇怪，一道熟悉的声音裹挟着风声，传入了他的耳朵里。</p><p>“蹲下抱头！”</p><p>陆航先是一愣，然后心中大喜，接着相当听话地照做。</p><p>灰衣男暂时失去了视力，但他的感官还在。</p><p>在自己前方，快速且有力的步伐声由远至近，像是有什么人朝着自己狂奔。</p><p>这种速度绝非常人！是职业武者的身法！</p><p>再联想到刚才的汽水炸弹，灰衣男很快联想到了一点。</p><p>内力外放，八品武者！</p><p>顾不上惊骇自己怎么会招惹如此人物，呼啸而来的风声宣告，自己和对方的距离近在咫尺。</p><p>被一位职业武者近身的后果，他可太清楚了。</p><p>灰衣男下意识地做出双手交叠在胸前的防护姿势。</p><p>此时，蹲下的陆航忍不住微微扭身，朝后望去。</p><p>上身白T恤，下身牛仔裤的苏栗，在狂奔到灰衣男身前时，陡然停顿下来。</p><p>她足掌发力，高高跃起，腰椎如蛟龙升空，猛然发力。</p><p>一记漂亮的回旋踢，重重的扫向灰衣男。</p><p>恍惚间，陆航似乎又回到了那个盛夏。</p><p>那一日也是苏栗以回旋踢摆平了对手。</p><p>但今时不同往日，苏栗的踢击早已上升到一个难以估摸的程度。</p><p>裤管的爆响声，空气的嗡鸣声，共同组成了一道恐怖的声势。</p><p>灰衣男直接被踢飞出去，在半空中划出一个优美的弧线。</p><p>接着重重摔在离陆航不远的垃圾堆里。</p><p>轰！</p><p>灰衣男砸的垃圾四溅，灰尘翻飞。</p><p>他挣扎着想要起来，怒睁圆目，旋即脑袋一歪，昏死过去。</p><br></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

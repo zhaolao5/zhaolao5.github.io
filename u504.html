@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>跳转进行中-点击收藏不迷路</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到跳转进行中</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于跳转进行中</h2>
+<p>跳转进行中<p>“哈哈哈…”</p><p>肆意的笑声突然响起。</p><p>“…哈哈哈…”</p><p>“呼哈哈哈哈…”</p><p>笑声回荡在空旷的黑暗中。</p><p>维耶娅浑身绷紧，从来没有过像这样如临大敌的样子。</p><p>“呼哈哈…见到吾，你就这么不开心吗？”</p><p>一只金发金眸的萝莉从黑暗里走来，纤细手指轻捻黑白蕾边裙摆，步伐不紧不慢转着圈圈靠近，仿佛踩着一曲优雅的舞步。</p><p>“哎呀！”</p><p>走到维耶娅面前的萝莉忽然惊讶捂嘴。</p><p>她面露天真无邪的困惑，看着维耶娅问道：“你怎么把自己弄成这副模样了？变成和吾一样了么？呼哈哈哈…”</p><p>说着，魔王捧腹笑道：“对萝莉下手的惩罚，怎么样？喜欢吗？惊喜吗？”</p><p>“…”</p><p>维耶娅抿着小嘴一言不发。</p><p>“唉，不说话多无趣啊。”</p><p>见对方像木头一样不回应，魔王收敛起脸上玩味的笑意，上前想要抱一抱对方，却被对方一个闪身避开，顿时，她有些意外：</p><p>“啊哩…你不喜欢吾了吗？”</p><p>“芙拉薇尔，别说这些了。”</p><p>维耶娅看着对方满是笑意的金色眼眸，声音逐渐变低：“发生了这么多事情，我不可能还当做什么事都没发生一样。我们之间，已经结束了，再说…”她顿了好一会儿，没再去看芙拉薇尔笑吟吟的眼睛，“…你已经死了，不是吗？”</p><p>“吾死了吗？”</p><p>芙拉薇尔一把抓住维耶娅的手，这次她没再躲开，只是吃疼的皱了皱眉。</p><p>“这不是你的选择吗？正义的勇者，吾当初让你走了，不是吗？可你没有走，还想把吾一起抓住。”</p><p>“带着你那群忠诚的小跟班抓住吾，剥夺吾的力量。”</p><p>芙拉薇尔表情开始阴暗起来，不带笑意，“夜驰，哦，不，现在该称呼你为维耶娅，吾现在再问你一次。”</p><p>“如果再给你一次机会，你会选择放弃勇者的位置，和吾一起找个无人问津的地方安安定定的过日子吗？”</p><p>“…”维耶娅躲开对方咄咄逼人的目光，没有说话。</p><p>看着她的沉默，芙拉薇尔得到了自己想要的回答。</p><p>“呼哈哈哈哈…”</p><p>“…哈哈哈。”</p><p>魔王再次肆意笑了起来，不过这次的笑声里多了一丝悲哀，还多了一些嘲讽，像是嘲讽自己喜欢上不该喜欢的人，又像是嘲讽自己本该是魔临天下的魔王，怎么现在混成这个样子了。</p><p>她那漂亮的黄金瞳里仿佛有一朵彼岸之花在盛开，芙拉薇尔明明是魔族当之无愧的霸主，现在却委屈得像路边被抛弃的倒霉小孩。</p><p>“勇者，你对吾太残忍了。”</p><p>维耶娅张了张嘴，想说些什么，可话到嘴边她才发现自己不知如何开口。</p><p>原来，过去一直都是芙拉薇尔主动的，她们间各种各样的第一次也好，率先向对方告白的那一方也好…我一直都只是在被动的享受这些吗？</p><p>维耶娅的心空落落的，她想要脱离梦境，想要用酒浸泡自己身体的每一处，似乎只有这样，她才能忘掉这些她不愿面对的现实。</p><p>是啊。</p><p>如果魔王和勇者间只是和人类宣传那样，单纯的敌对关系就好了。</p><p>温暖如水的感觉涌上心头，维耶娅忽然意识到自己的身体被丢入酒缸里，意识被麻醉。</p><p>孤零零蹲在黑暗里抱膝哭泣的魔王越来越小，仿佛一只困在黑暗不断缩水的黄色苹果。</p><p>“不对。”</p><p>维耶娅晃着脑袋想要驱散这种麻醉的感觉。</p><p>“不对，不应该这样的！”</p><p>奋力睁开眼睛，一股呛人的酒气刹那间充满口腔，维耶娅连连咳嗽。</p><p>哪个狗日的把她泡酒缸里了？还是超难喝的朗姆酒！</p><p>哗啦！一声。</p><p>酒缸破了，一只白毛萝莉沾满酒液的坐在灰陶缸底上。</p><p>紫发的少女急匆匆向她跑来。</p></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

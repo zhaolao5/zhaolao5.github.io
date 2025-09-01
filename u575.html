@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>鸭鸭导航-研究所导航发布页</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到鸭鸭导航</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于鸭鸭导航</h2>
+<p>鸭鸭导航<p>一个人的五官，若是美到一定程度，单个都能拿出来说道说道。</p><p>苏栗的眼睛像刚出生的婴儿般清澈晶莹，黑白分明。</p><p>这双眼睛，再搭配那张脸蛋，妥妥的一个二次元走到三次元的萌妹子长相。</p><p>但苏栗的眼睛，却是透着一股锐气。</p><p>就像是一把出鞘几分的剑。</p><p>接下来，便展示了属于职业武者的身体素质和反应能力。</p><p>苏栗脊椎发力，腰背一弹，对着这个偷袭者做出了擒拿。</p><p>“呃啊啊啊！”</p><p>原本呆愣的陆航，顿时被剧痛所惊醒。</p><p>他的上半身被扭转过来，一对纤细却有力的胳膊，如绞架般箍住了他的脖子。</p><p>一双腿则是如剪刀般，从后腰探出，锁住了他的腰。</p><p>这个姿势，只要以寸劲的技巧发力，就能使陆航脊椎断裂，成为一个人形虾米。</p><p>感受到脖子上的“绞索”渐渐发力，陆航再也顾不上别的，竭尽全力的大喊:</p><p>“栗子！是我！”</p><p>栗子是苏栗的简称和外号，基本熟悉的朋友和家人都这么称呼。</p><p>话音刚落，陆航便感觉到，身后的人形绞架放松了下来，像是认出了他。</p><p>陆航从绞架中挣脱开来，坐起身，心有余悸的摸了摸脖子:</p><p>“我说你这招叫什么?夺命剪刀脚?”</p><p>他下意识的说了句烂话，可看见眼前的情景时，顿时又呆住了。</p><p>苏栗坐在床上，静静的平视着他。</p><p>身后的阳光照射进来，为苏栗加持了一层光影。</p><p>看上去很唯美，但此时此刻，陆航的视线都放在了苏栗的身体上。</p><p>他终于发现有什么不对的地方了。</p><p>那张脸，虽然还是一如既往的精致漂亮，但在陆航的印象里，这张脸应该是带着几分英气的。</p><p>就像是那种中性打扮的飒爽感。</p><p>但眼下的苏栗，却给人一种软糯柔媚的感觉。</p><p>视线往下，苏栗身上穿着一件不合身的T恤，兴许是刚才的打斗，T恤的左半边滑了下来。</p><p>映入眼帘的，是大片大片的雪白，精致笔挺的锁骨，以及胸前那颇有规模的沟壑。</p><p>“栗子，是你么?”</p><p>陆航不由的咽了口唾沫，有些没头脑的问了一句。</p><p>他想证实一下，看看自己是不是在做梦。</p><p>苏栗还处于刚睡醒的状态，看了眼陆航，有些奇怪的道:</p><p>“你那是什么表情……”</p><p>话没说完，苏栗自个也察觉到了什么。</p><p>因为，这个嗓音，不符合以往的认知。</p><p>这一点，陆航也发现了。</p><p>作为苏栗的头号马仔，他对其声音是再熟悉不过了。</p><p>别看苏栗一副乖巧的长相，但他原本的声音可算不得好听。</p><p>带着一股破风箱般的沙哑感，又像是那种抽烟抽出病来的老烟鬼。</p><p>苏栗倒不是抽烟抽的，相反，若是发现他抽烟，苏栗的母上大人第一个饶不了他。</p><p>陆航也问过原因，苏栗说是练功练出来的后遗症。</p><p>不过这嗓音也帮他解决掉不少麻烦，那些春心萌动，误以为他是软妹子的小男生，基本都被他的声音吓跑了。</p><p>但现如今，那股有些沧桑的沙哑音已经一去不复返，取而代之的是如清泉般甜美的嗓音。</p><p>除开声音，身体上的不对劲才是关键。</p><p>苏栗先是将自己的手放到眼前，这双如青葱般细长粉嫩的十指，指甲盖白里透红，看得苏栗直发愣。</p><p>随后是自己的头发，苏栗这头棕发倒不是染烫，而是天生的。</p><p>当时的中小学严禁染头烫头，为了这事初中时还跟教导主任battle了许久。</p><p>最后苏栗实在不耐烦了，拿推子给自己剃成个铮亮的光头，一眼望去就像是一只剥了壳的鸡蛋。</p><p>那一天，好悬晃瞎全班人的眼睛。</p><p>苏栗对于自己的形象外貌不是很在意，但出于母上大人的自幼教导，不至于变得邋里邋遢。</p><p>苏栗之前的发型算是三七分，比板寸好一些，头发没超过耳边。</p><p>可现如今，这头棕发像是吃了激素般疯长，足足长到披肩的程度。</p><p>摸了摸自己的一头秀发，苏栗手指揪住一缕发丝，微微发力。</p><p>拔下来后，感受着丝滑顺柔的质感和头皮那微弱的疼痛，使苏栗确定不是恶作剧。</p><p>发现这一点后，苏栗脸上的茫然和惊愕又增添了几分。</p><p>然后，苏栗低下头，看着胸前隆起的小山坡，如泥偶般呆住了。</p><p>有些不信邪的按上了自己的双手，用力一握。</p><p>那惊人的弹性，温玉般的柔软，以及如触电般的奇怪感觉，让苏栗浑身一颤，唇齿间溢出一道酥人心骨的吸气声。</p><p>听的一旁的陆航也呆住。</p><p>倏然间，苏栗想到了什么，双手探入T恤的下摆，一路向下。</p><p>大约几秒钟后，向来无论遭遇什么，都面不改色的苏栗直接惊叫出声。</p><p>小脸上写满着惊恐，语气发颤的道：</p><p>“阿航，我的XX没了！”</p><p>听到这句包含男**官的粗俗之言，还是从眼前这位棕发小美女口中说出，陆航就觉得一阵魔幻。</p><p>……</p><p>陆航来到客厅，从冰箱里取出一瓶冰牛奶，用以压惊。</p><p>毕竟这一切有些过于离奇了，苏栗居然真的变成了女孩子。</p><p>卫生间里，正传出哗啦啦的水声。</p><p>倒不是他欲望大发，霸王硬上弓，在事后洗澡。</p><p>他就是有色心和色胆，也压根打不过苏栗。</p><p>苏栗虽然变成了女孩子，实力有所下降，但依旧是职业武者的水准。</p><p>主要是苏栗又细致的检查了一下身体，发现身上出了不少汗，皮肤表面还有一层黏糊糊的东西。</p><p>加上“失鸡之痛”，洗个热水澡也有助于放松和平复心情。</p><p>老实说，苏栗从“他”变成了“她”，陆航心中的震惊也不小。</p><p>若非打小相处，坦诚相见过，陆航都以为苏栗是女扮男装暴露了。</p><p>他抬起手掌，回味着先前所触碰到的柔软，心中不由的一漾。</p><p>栗子真的是由里到外都变成了女孩子啊。</p><p>不知怎的，对于自己的好兄弟兼发小变成女孩子这件事，陆航还是挺能接受的。</p><p>一来，他算是个宅男，常年涉猎二次元领域，对于性转一事不算陌生。</p><p>二来，苏栗真的变成女孩子了，也算是对得起那惊天颜值啊。</p><p>三来嘛，好兄弟变成了青梅竹马，他岂不是近水楼台先得月?</p><p>嘿嘿嘿。</p><p>就在陆航浮想联翩时，全然没留意卫生间里的水声停下。</p><p>苏栗用毛巾擦拭着头发，赤着脚从卫生间中走出。</p><p>她径直来到客厅，走到陆航旁边，也从冰箱中拿出牛奶喝起来。</p><p>陆航瞥了一眼，牛奶直接从鼻子里喷了出来。</p><p>苏栗还保持着男性时的习惯，身上只裹着一条浴巾，而且只围着下半身。</p><p>上半身那对白腻直接堂堂正正的展露在外。</p><p>“咳咳咳，栗子！”</p><p>陆航呛了好一会，出于礼貌的背过身，红着脸提醒道。</p><p>“嗯？”苏栗正一手叉腰一手豪迈的喝牛奶，有些疑惑的看过来。</p><p>她压根没觉得自己有什么地方不妥。</p><p>“你的上半身露出来了。”</p><p>苏栗一口气喝完了整瓶牛奶，不甚在意的道：</p><p>“都是男人有什么大不了的！”</p><p>陆航嘴角抽了抽，连忙补充道:</p><p>“可你现在已经是女孩子了啊。”</p><p>闻言，苏栗眉头微蹙，她以前最讨厌有人弄混她的性别了。</p><p>可转念一想，貌似说的也没毛病。</p><p>苏栗还是挺尊重这个发小的建议的，便将围在腰间的浴巾拉到胸前的位置。</p><p>“好了。”</p><p>陆航旋即转过身，确定没有春光乍泄后，顿时松了口气。</p><p>但目光触及到苏栗时，还是忍不住咽了口唾沫。</p><p>苏栗身上仅有一条白色的浴巾遮盖，湿漉漉的棕发，巴掌大的小脸，娇小玲珑的身材，粉嫩的双肩以及那双纤长浑圆的腿……</p><p>陆航深吸一口气，抬头望天，心中快速默念着数学公式。</p><p>他怕他再看下去，就真的把持不住了。</p><p>“对了，栗子，你现在感觉如何？”</p><p>陆航以询问的方式来转移注意力。</p><p>苏栗握了握拳，很是失落的说：</p><p>“力量至少变弱了三成。”</p><p>“谁问你这个啦！”陆航强忍住吐槽的冲动，“我是问你变成女孩子后可有什么不舒服的地方。”</p><p>“暂时没有。”苏栗摇头。</p><p>“对了，你到底是怎么变性的?”</p><p>陆航问出藏在心中许久的疑惑。</p><p>以他的脑洞联想，莫非是有魔法生物和苏栗签下契约，让他成为拯救世界的魔法少女?</p><p>又或者是昨晚吃烧烤回家的路上，有神秘的黑衣人给苏栗注射了变性药水?</p><p>“栗子，你要不试试看，能不能从身体里召唤出什么东西来?”</p><p>比如系统，随身老爷爷什么的。</p><p>苏栗白了陆航一眼：“你小说看多了吧。”</p><p>这时，她眨了眨眼睛，抬起头看向陆航:“阿航。”</p><p>“我擦?你不会真的召唤出丘比了吧?”</p><p>“不，是我饿了。”</p><p>陆航：“……”</p></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

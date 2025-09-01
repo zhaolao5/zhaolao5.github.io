@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>影视导航-回家地址</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到影视导航</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于影视导航</h2>
+<p>影视导航<p>两人坐上出租车后，来到了黎城的一座商场。</p><p>商场内堪称功能齐全，电影院，奶茶店，超市饭馆全都有。</p><p>而第二层就是专门用于售卖服装的区域。</p><p>借助着告示牌，两人很快找到了一家女性内衣专卖店。</p><p>但在距离店门口几步的距离，两人都很有默契的停了下来。</p><p>停滞不前的问题很简单，从心理上都被判做是雄性的二人来说，从来没来过这种店。</p><p>女性的内衣，对于男生们而言，是一个神秘又好奇的领域。</p><p>而在青少年这个群体里，除开游戏和动漫外，有关“性”的话题更是相当吸引他们的注意。</p><p>像陆航举例，绝大多数有关“性”的知识，基本都是从游戏和动漫里了解到的。</p><p>至于苏栗，就更逆天了，别看她是武者，才十几岁便经历了同龄人难以想象的精彩生活。</p><p>但在这一方面，单纯的像一张白纸。</p><p>苏栗知道有关女性内衣的知识，还得从小学六年级说起。</p><p>那时班上有个恶霸，喜欢上课的时候弹前桌女生的内衣带玩。</p><p>那名女生敢怒不敢言，最后还是陆航无意间发现，带着苏栗联手，分别用武力和道理教其做人，让他给那个女生道歉。</p><p>事后那女生专门向苏栗和陆航表示感谢，然后苏栗就发自内心的问出一个疑惑。</p><p>原来女生的上半身还要穿内衣的么？</p><p>在当时的苏栗眼里，男生和女生只是上厕所时要区分开来，剩下的区别都没什么概念。</p><p>她还和不少女生处成了好兄弟般的关系，以至于性别在苏栗的观念里很是模糊。</p><p>基于这一点，苏栗向那名女生提出一个请求，结果被那女生红着脸骂了一句流氓，掩面而去，令苏栗感到莫名其妙。</p><p>当然，可能是她请求的方式出了些差错，她问的是：“能把你的内衣借我看看么？”</p><p>现在看来，确实是有些逆天了……</p><p>但这事还没完呢，苏栗为了满足自己的好奇心，趁着父母不在家时，潜入了他们的卧室。</p><p>从衣柜里，翻找到了妈妈的内衣，顿时惊为天人。</p><p>那些内衣有着精美的花纹和蕾丝边，给人带来一股直观的美感。</p><p>除此之外，她还找到了类似秋裤的黑色长袜，有着绑带的长袜，以及像渔网般的不可名状物……</p><p>就在小苏栗认真鉴赏之时，好巧不巧，苏妈提前回家，撞见了这一幕……</p><p>苏栗不由分说的被按到客厅的沙发，啪啪啪的抽打着屁股。</p><p>直到苏栗说明自己只是出于好奇，苏妈才放过了她。</p><p>妈妈为什么发那么大的火，至今仍是苏栗的困惑之一。</p><p>那件事之后，苏妈也跟她讲述了很多有关男女之间差别的事，更是在苏栗要遵守的规则上又加了一条。</p><p>那就是上大学之前，不准早恋。</p><p>这一点倒是不用担心，苏栗在这方面可以说是稳定发挥。</p><p>凭借那张惊艳的脸蛋和超凡的武力值，从小学到初中，不知有多少女生春心萌动，向苏栗示爱。</p><p>身为苏栗发小的陆航曾经吐槽过，苏栗收到过的情书都能用来打扑克牌了。</p><p>只可惜，当时的苏栗仅用一句话来形容。</p><p>万花丛中过，片叶不沾身。</p><p>苏栗最大的性格特点之一，便是个感情白痴。</p><p>她所结交的女性朋友，基本都是当好兄弟处的。</p><p>压根没往那方面去想。</p><p>当然，最主要的一点，还是因为，她觉得谈恋爱很无聊。</p><p>有那功夫，不如把心思放到练武上。</p><p>感受着自己逐渐变强，拥有超越普通人的力量不香么？</p><p>谈恋爱什么的，只会阻挡我变强的步伐！</p><p>回归正题，陆航和苏栗，你看看我，我看看你。</p><p>始终没人继续往前走。</p><p>陆航轻咳一声：“栗子，我想你还是一个人进去吧。”</p><p>苏栗果断摇头：“不行！你答应我陪我一起去的！”</p><p>“没必要啊，我在外面等你就好了。”</p><p>陆航的建议被苏栗无视掉，以行动表明了自己的态度。</p><p>她扯着陆航的衣服，硬生生将他拽了进去。</p><p>纵使陆航有千万个不愿意，也奈何不了一位职业武者的蛮力。</p><p>两人推开玻璃门，齐齐踏入店内。</p><p>柜台前，一名束着高马尾，有着苹果般的小圆脸的女店员，正在用手机追剧。</p><p>见到有人进来后，她抬起头喊了句欢迎光临。</p><p>可看清客人的样子时，忽然愣住了。</p><p>陆航倒不是重点，他的长相不能说丑，但也谈不上好看的程度，最多算是有点小帅。</p><p>可苏栗就不一样了，女店员都有种想揉眼的冲动，看看是不是自己眼花了。</p><p>苏栗的颜值，就像是天生加持了美颜一般，从小到大，基本上都会吸引来惊艳的目光。</p><p>苏栗拖着陆航走到柜台，却是一动不动，沉默在了原地。</p><p>一时间，场面有些尴尬。</p><p>还是女店员主动打破了沉寂，“两位，是来买衣服的么？”</p><p>苏栗二人这才如梦初醒，异口同声地道：“对。”</p><p>陆航伸手指了指苏栗：“她，她要买内衣。”</p><p>他悄悄扯开被苏栗拽着的衣袖，不知怎的，他有种做贼心虚的感觉。</p><p>女店员从柜台中走出，微笑着看向苏栗：“你好，方便问一下怎么称呼？”</p><p>苏栗眨了眨眼，开口道：“我叫苏栗，栗子的栗。”</p><p>“我叫方圆，你可以叫我小方，你应该还在上学吧？”对于苏栗这般颜值高的人，女店员下意识地想要与之对话交流。</p><p>“对，高中生。”苏栗言简意赅地道。</p><p>“那跟我来吧，我向你介绍一下我们店里的样式，顺便看看有什么喜欢的风格。”</p><p>方圆带着苏栗朝深处走去，而陆航如释重负的长出一口气。</p><p>“我们的内衣都是具有专利的，采取的是柔软面料，在基于美观的原则确保舒适贴身。”</p><p>“我们店里的内衣风格很多，性感风，成熟风，一应俱全，当然，根据你的情况，选择少女风的将更加适合。”</p><p>“我们还有运动风的内衣，统一采取透气材料，时时刻刻都能保持干爽。”</p><p>“这款内衣具有独特的支撑结构，能够显著提升胸部线条，让你的曲线更加挺拔美观。”</p><p>似乎是因为苏栗的颜值缘故，方圆介绍起来格外认真，各种专业术语层出不穷，语言态度之诚恳，时时刻刻都激发着人的消费欲望。</p><p>苏栗就像是踏入了新世界的大门，看的眼花缭乱。</p><p>“对了，苏同学，还没告诉我你的型号呢。”方圆想起来一点，提醒道。</p><p>“啊？”苏栗用清澈到有些愚蠢的目光，表明自己的疑惑。</p><p>“就是你的罩杯啊。”方圆又道。</p><p>看着苏栗有些茫然的样子，方圆想到一种可能，有些惊讶的道：“你没量过自己的胸围么？”</p><p>苏栗诚实的点了点头。</p><p>见苏栗这般呆萌的样子，方圆忍不住扑哧一笑，“那让姐姐我给你量一下好不好。”</p><p>苏栗想了想后，点头答应。</p></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

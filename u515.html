@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>兔子先生-麻豆 吴梦梦</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到兔子先生</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于兔子先生</h2>
+<p>兔子先生<p>“砰得──”</p><p>寝殿的门扉被瞬间轰开，清冷的月光映照着墨庞枯瘦苍老的面容，更显出一丝阴戾狠辣的神情。</p><p>哪怕殿下被伤到半分，他都无颜再见大将军。</p><p>然而，墨管事抬眼望去，瞧见的景象却要远远超出他的预料，季世子压着窈窕曼妙的绝美少女，嘴角挂着邪魅的笑容，姬姑娘双腿如鲤鱼般地扑腾，粉拳捶着殿下胸口，明显就是欲拒还迎的把戏。</p><p>听到剧烈的声响，季晏清与姬女侠不约而同地停住正忙着的事情，仰头望向门扉的位置。</p><p>“墨伯伯，深夜来访有什么急事吗？”</p><p>季晏清略显恼怒道，而姬清焰玉靥瞬间羞红，面颊烫得冒泡，柔荑掩面，尽显少女的青涩羞赧。</p><p>墨庞赶紧移开视线，不去瞧姿势极尽暧昧的少男少女，尴尬地抱歉一声后，赶紧重新关好门。</p><p>他原先还以为姬清焰穿着夜行衣，是前去行刺世子殿下的，没想到是去被世子殿下行刺的，但仔细想想也是，郎才女貌，又是情窦初开的年纪。</p><p>女孩白昼里脸皮薄，夜间幽会也是正常……</p><p>果然是人老智衰，这点道理都没想通。</p><p>墨庞管事暗自想到，只是那少女的身份实在是过于敏感，当年丘成伯灭门惨案背后所牵涉的势力实在是太多……柳相、新帝、大将军，以及齐王旧臣。</p><p>这些势力单挑出来都足以在炎夏朝掀起一阵滔天巨浪，而在丘成伯所引起的政治漩涡中，竟同时有着这些势力的影子，清焰姑娘……</p><p>也罢，世子殿下喜欢就好。</p><p>墨庞佝偻腰身，迎着寒风，独自朝着院外走去。</p><p>……</p><p>随着墨管事的身影渐行渐远，季晏清也赶忙从姬女侠的娇躯上爬走，生怕她给自己再来一刀。</p><p>姬清焰砌墨发丝已有些散乱，贴身夜行夜勾勒出曼妙婀娜的身姿，双颊还晕着酡红，妩媚的丹凤眼眸透着一丝浅浅的怅然若失。</p><p>“姬女侠地板冷，怕着凉的话，还是快些起身为妙。”</p><p>季晏清柔声提醒道，那双阴柔漂亮的桃花眼眸很是勾人，一时间竟让她舍不得偏移目光。</p><p>片刻后，意识到举止失态的姬清焰慌忙起身，螓首低垂，素手勾了勾耳畔的青丝，柔声说道：</p><p>“刚刚的事……谢谢你帮我掩护。”</p><p>“举手之劳，姬女侠不必言谢，更何况本就是本世子有些在先，做些徒劳的补偿而已。”</p><p>季晏清风度翩翩地应道，将染血的衣袖藏到身后。</p><p>可如此明显的举动，又哪里会逃得过姬清焰的丹凤眼眸，或者说魏王世子之所以将那条受伤的手臂藏到身后，本就是想要引起她的注意。</p><p>“我来帮你包扎伤口！”</p><p>心怀愧疚的姬清焰弯曲柔美楚腰，正想替白衣少年止血，直到此时，她才发现自己好像没有绑带。</p><p>她此番前来是为的刺杀魏王世子，哪里会有拿着绑带而舍弃匕首的道理，事情发展到这一步，早就与她原先的目标南辕北辙。</p><p>一时间，姬清焰竟有些不知所措地愣在原地，眼睁睁地看着鲜血不断流出，很是心疼。</p><p>姬清焰银牙轻咬，刷得一声，从夜行衣的长袖撕扯下数缕紧密的布料来，温柔地抬起世子殿下被鲜血染得殷红的手臂。</p><p>从桌角寻来清酒，少女檀口微含，将酒精喷在伤痕处消毒，旋即再用布条止血裹住，留好出气孔洞。</p><p>虽然包扎得不甚美观，但胜在实用，不知强过那些千金小姐的手法多少倍。</p><p>“这样有好些吗？”姬清焰柔声问道。</p><p>“清焰姑娘亲手包扎，哪有不快些好的道理。”季晏清勾起薄唇，露出淡淡的微笑。</p><p>“油嘴滑舌～”</p><p>姬女侠悄悄嘟囔道，樱桃小口饱满莹润，再配着少女的娇羞情态，引得人想要一亲芳泽。</p><p>忽地，她好像觉得哪里有点奇怪……</p><p>她不是来刺杀魏王世子的吗？</p><p>那现在她是在干嘛，幽会私通吗？！</p><p>如梦初醒的姬清焰慌忙起身，想跟季晏清保持适当的距离，刚刚两人的举止未免过于亲近，根本不像是无良世子和来取他狗命的正义女侠。</p><p>倒像是新婚燕尔的……</p><p>鹿皮靴尖轻点地面，姬清焰瞬间撤到五步外，雪腻精致的脸颊透着粉嫩，羽睫轻颤。</p><p>“你如果没事的话，我……我就走了。”</p><p>姬清焰转身就想匆匆跑开，可她刚迈出两步，身后便有阵悦耳的声音传来。</p><p>“清焰姑娘留步。”</p><p>听闻此言，姬女侠鬼使神差地停住脚步，她明明可以就这样跑掉的，可少年的声音却使她莫名地停下脚步，回眸相望。</p><p>“你……还有什么事吗？”姬清焰双手抱胸，装出一副冷冷的模样，可那羊脂玉般的素手却微微颤动。</p><p>虽然此时刚至初一，离元宵还有段时日，但她心底却已经隐隐感觉到离别的临近。</p><p>三月光阴间，恍若一梦。</p><p>说真的，她都有些舍不得邺城喧嚣的烟火气，酒馆里说书人口中新奇有趣的故事，魏王府里可口的菜肴……以及少年那双阴柔漂亮的桃花眸。</p><p>“无论如何，我今日都有愧于姑娘，能及时发现酒里的问题也好，想到另外的解毒方法也罢，都不至于使女侠落得被本世子如此轻薄的结果。”</p><p>“所以……”</p><p>季晏清俯身从床底拖出只乌木剑匣，恭谨地端在手里，递到黑衣少女身前，缓缓开启。</p><p>“此剑名为［霄练］，剑长三尺两寸，通体赤红宛若霞染，柄处刻有霞纹，流云吞口，我在铜雀商会拍卖会上看到的，觉着跟女侠挺搭。”</p><p>除夕前夜跟苏凝月分别后，季晏清并未急着折返回魏王府，而是先在摊贩处挑得安神美玉，再赶到铜雀商会取来这柄［霄练］名剑。</p><p>前者送谢姨自是考心，而后者赠给姬清焰则是成人之美，原著里［霄练］本就是她的佩剑，只不过因机缘巧合，反倒而落入季晏清之手。</p><p>这也算是女主和黄毛反派间莫名的缘分吧！</p><p>姬清焰懵懂地接过剑匣，眼眸迷离湿润，这是她拜入罗刹古宗以来，第二次有人送她礼物，而且居然也是一柄陵劲淬砺的名剑。</p><p>“名剑［霄练］，问剑谱排名九十三，品质乃是天阶下品，如此名剑你也舍得送给我。”姬清焰有些疑惑地发问，默默地便把剑匣还回去。</p><p>但季晏清却没有伸手去接，柔声道：</p><p>“本世子不善舞刀弄剑，此等名剑跟在我身边也只会辱没锋刃剑芒，不如让它佩在女侠腰间。惩奸除恶。”</p><p>“可我已经有［承影］……”</p><p>“据本世子所知，罗刹古宗的至强剑技，可是需要两把剑才能发挥出全部威能。”季晏清淡然说道。</p><p>少女朱唇紧抿，想说什么却又说不出口。</p><p>她本就自觉有愧于魏王世子，若再收受名剑［霄练］，真是不知道该如何报答他。</p><p>姬清焰玉靥晕着绯红，抬眼望见季世子那勾人的桃花眼眸，犹豫着是否要再把剑匣推开。</p><p>似是瞧出她内心的纠结，季晏清出声说道：“这柄剑是我送给女侠的谢礼。”</p><p>“你要谢我什么？”</p><p>姬清焰歪了歪脑袋，并未理解对方的言语。</p><p>“当然是谢姬女侠将凶剑［邪魇］送入我手，相比之下，反倒是本世子的这份谢礼都有些略显单薄。”</p><p>“谢谢……”</p><p>姬清焰声音细若蚊呐，总算是收下所谓的谢礼。</p><p>但她心里明白，凶剑［邪魇］并不能算作是她送给季世子的礼物，而季晏清的这份情她却是迟早要还的。</p><p>要么下辈子做牛做马，要么这辈子以身……</p><p>正当姬清焰暗自思索之时，季晏清却温柔地握住她的柔荑，凑到耳旁轻声说：</p><p>“清焰姑娘，新年安康。”</p><p>“新年……安康……”姬清焰羞赧地应道。</p><p>PS:阅读理解题，请问这句“新年安康”所表达出的情感。</p></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>
