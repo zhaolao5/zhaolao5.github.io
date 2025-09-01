@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>自拍导航-不良研究</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到自拍导航</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于自拍导航</h2>
+<p>自拍导航<p>以苏栗的速度，就是不动用天斗身法，也能轻松追上她们。</p><p>但苏栗故意迟钝了片刻，让那两人多跑出一段距离，才选择动身。</p><p>这些人不是很喜欢玩游戏么，那么她也来玩个游戏，就叫做打猎。</p><p>自己是猎人，负责追逐这些猎物。</p><p>多给猎物跑一会，不然一下子就抓到猎物了，还有什么意思？</p><p>也让这些欠缺道德素质的人体验一把被玩弄的感觉。</p><p>两个女生本就是平日里不怎么运动的人，才跑出十几步便开始气喘吁吁。</p><p>但身后追上来的步伐，却迫使的她们不得已的奔跑着。</p><p>沈月瑶眼神一狠，毫不犹豫的转身，将跟着自己跑的顾婷婷推向后面。</p><p>苏栗一把抓住顾婷婷，没有给其痛哭求饶的机会，一记掌刀打昏了后随手丢在路边。</p><p>接着从容不迫的继续追沈月瑶。</p><p>沈月瑶被吓得亡魂皆冒，只好拼命摆动双腿，不顾一切的跑着。</p><p>因为天黑，加上苏栗的穷追不舍，让沈月瑶没看清路面，被绊了一下，摔倒在地。</p><p>她穿的是一双绑带凉鞋，直接摔得绑带断裂。</p><p>沈月瑶顾不上摔在地上的疼痛，看见苏栗越来越近时，被吓得花容失色，手脚并用着朝前方爬去。</p><p>但可惜，被苏栗一只手按住了肩膀，动弹不得。</p><p>苏栗扯住她的头发，硬生生将其拖拽回原本的地方，路上没忘记把那个顾婷婷也带上。</p><p>这里躺着不少的人，唯一还算清醒的就只有沈月瑶一人。</p><p>苏栗没选择打晕她，是因为还有话要问。</p><p>苏栗带着沈月瑶到湖泊边，半蹲在她面前，面无表情的道：“说吧，你对阿楠都做了什么？”</p><p>仅从下午时宁静楠痛哭时的样子，以及所听到的对话，苏栗可以肯定，阿楠绝对不是第一次受欺负了。</p><p>她没有问宁静楠，因为她觉得那样是在揭开伤疤，但在这个罪魁祸首前，就可以随意逼问了。</p><p>沈月瑶只是带着哭腔求饶，对于有关宁静楠的事模棱两可，避重就轻。</p><p>苏栗眼神中出现一分不耐，毫不犹豫的一巴掌招呼上。</p><p>鲜红的巴掌印出现在那张娇美的脸上，沈月瑶捂着脸，感受着深刻的痛感，呆愣的跪坐在地，似乎是有点不相信自己挨了打。</p><p>也是，像她这样养尊处优的大小姐，就连她的父母都没打过她。</p><p>沈月瑶双眼瞪大，脸上表情浮现刻骨的怨毒，她色厉内荏的喊着：“你敢打我？我家里人不会放过你的。”</p><p>“看来你还搞不清自己的处境啊。”苏栗的语气带着几分嘲讽，又是一巴掌招呼在沈月瑶的右脸。</p><p>这一次打的她流出生理性的泪水。</p><p>沈月瑶像是崩溃一般，歇斯底里的用一切能想到的脏话咒骂着苏栗。</p><p>她堂堂沈家大小姐，何时受过这种气？</p><p>苏栗没有因沈月瑶的咒骂表现出任何恼怒，直到沈月瑶骂累了之后，才用行动表明自己的态度。</p><p>她一手掐住沈月瑶的脖子，带着她走近湖泊。</p><p>看着近在咫尺的水面，沈月瑶想到了什么，拼命的挣扎：“不！等等！放开我！”</p><p>苏栗不由分说的让沈月瑶跪在地上，把她的脸深深按入水面中。</p><p>而在后方不远处的丛林里，站着两个人，正是陆航和宁静楠。</p><p>苏栗在安慰好宁静楠后，便想着如何对付沈月瑶等人。</p><p>除了由她亲手解决这些烂人外，她还想让宁静楠能亲眼见证这一幕。</p><p>已经发生过的事，苏栗无法挽回，那么，她便想尽可能的愈合宁静楠的伤痛。</p><p>在苏栗看来，做错了事便要受到惩罚。</p><p>能够看见折磨自己的恶人受到惩戒，应该有助于消弭伤疤吧。</p><p>至于陆航，身为她的发小，苏栗当然把这事也告诉了他。</p><p>陆航得知后大为吃惊，在一阵犹豫后，也选择了帮忙加入。</p><p>一开始他是想和苏栗一起出现，毕竟对方人多势众，好汉难敌四手嘛。</p><p>但被苏栗一口驳回，理由是他太弱了。</p><p>别搞得到时候陆航反过来被劫持成人质，弄得苏栗不好出手。</p><p>某位一米八的大男孩很想强调一下自己不是战五渣，但比较了一下自己和苏栗的差距，还是妥协了。</p><p>苏栗交给他的任务就是陪着宁静楠。</p><p>陆航看了一眼身侧的宁静楠，老实说，在听了她的故事后，他对这个瘦弱女孩也很是同情。</p><p>如今，看着那些曾经百般玩弄自己的恶人们得到了惩罚，宁静楠没有表现出强烈的情绪波澜，只是安静的站着。</p><p>不过她的目光，牢牢锁定在苏栗身上。</p><p>陆航挠了挠脸，他觉得这样死寂的氛围有些压抑，又想说些话，但他和宁静楠不熟，而且说什么话好像都有些不符合当下的场合。</p><p>于是他把目光放到躺在地上的三名混混，默默的幻想着，若是自己也拥有超强的武力，而苏栗是个软软弱弱的小女生，自己就可以上演英雄救美的好戏了。</p><p>可惜啊，现实和幻想是反过来的，陆航充其量是个喊666的跑龙套。</p><p>就在这时，他目光一凝，因为他看见躺在地上的一名混混，趁着苏栗给沈月瑶洗脸时，准备开溜。</p><p>那名混混正是峰哥，他虽然被苏栗卸去了一条手臂，但靠着惊人的意志力，忍下了疼痛。</p><p>刚才他故意撞死，这会看见苏栗背过身子，没有把注意力放在他身上，便悄悄爬起身。</p><p>眼下峰哥心中的念头只有一个，那就是跑！</p><p>留得青山在，不怕没柴烧！</p><p>什么沈妹妹自己的跟班小弟，全都抛之脑后，这些哪里有他的小命重要。</p><p>峰哥用余光盯着蹲在湖泊旁的苏栗，一边小心翼翼的朝外面的方向走去。</p><p>这些陆航都看在眼中，他很是焦急，就是他这个纸上谈兵的程度，也知道不能放跑这个家伙。</p><p>他看到峰哥的一只手软塌塌的垂着，心中陡然一动，这货已经算是半残了，以自己的水平能不能对付他？</p><p>陆航越想越觉得可行，认为自己好不容易来了一趟，不能什么事都不做吧。</p><p>他下意识地将目光扫向四周，很快便看中了一块板砖。</p><p>拿起来握在手中试了试，嗯，分量正好。</p><p>峰哥为了不打草惊蛇，步伐轻缓的挪移到树林的阴影中。</p><p>他时刻打量着苏栗那边，以至于忽略了丛林深处。</p><p>就在这时，陆航从丛林中跳了出来，如梁山泊好汉般高喊道：“哼，想逃！”</p><p>他的突然出现给峰哥吓了一跳，同时也引起苏栗的注意。</p><p>陆航想的是打个措手不及，但他忘了一件事，那就是他的鞋带不知何时散了开来。</p><p>陆航跳出来后，本能的迈步，然后踩到了自己的鞋带，重心倾倒，朝着峰哥摔去。</p><p>而手中的板砖，也下意识地朝前挥去。</p><p>于是，板砖正正好好的砸在了峰哥的脸上。</p></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

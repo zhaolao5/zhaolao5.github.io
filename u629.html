@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>在线导航跳转中-禁慢发布页</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到在线导航跳转中</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于在线导航跳转中</h2>
+<p>在线导航跳转中<p>望着陈露天真无邪的水灵大眼，凌晓冬心想是不是自己的思想太过污秽，其实只是正常的治疗而已。</p><p>就像是自己与云姨那般，自己只是为了让陈露重塑阳魂，让她有机会重新活过来而已。</p><p>“哥哥，你就答应人家嘛~”</p><p>陈露娇软香喷的身子在凌晓冬的怀里扭来扭去，小手抓着凌晓冬的衣襟苦苦哀求。</p><p>原本凌晓冬已经在同意的边缘，但是经过她一撒娇，立马就冷静下来了。</p><p>云姨与陈露的情况完全不同。</p><p>最最关键的问题的是，陈露的外表实在是太过娇小，与云姨那成熟的美妇的形象截然不同。</p><p>自己如今不与小烟发生关系的原因就是小烟现在年纪太小，而此时的陈露光从外表上来看要比小烟还要年幼，自己实在是下不去这个手。</p><p>虽然凌晓冬自认是变态禽兽，但他也是有底线的禽兽。</p><p>“不行！”</p><p>“为什么！”</p><p>听到凌晓冬的回应，陈露的小脸立马垮了下来。</p><p>凌晓冬也没有将路全部堵死，他想了一个折中的方案。</p><p>“不过要是对你重塑肉身有帮助的话，给你服用是没有问题的。”</p><p>陈露的翠绿的双眸立马又重新布灵布灵闪亮起来，在黑夜中闪闪发光。</p><p>“但是！”</p><p>凌晓冬还有补充的条件。</p><p>“得我自己来，装进杯子里在给你。”</p><p>陈露小嘴又立马撅了起来，她挥舞着小粉拳，对于这个提案表示严重抗议：</p><p>“凭什么！明明那李彭娇与观主都能与哥哥肌肤相亲，我与哥哥那不是亲上加亲吗！”</p><p>凌晓冬赶紧纠正道：“首先！这不是亲上加亲！你要真是与我有血缘关系的亲妹妹，我连这个折中的方案都不会允许！我会给你找别的办法。”</p><p>他顿了顿，又道：</p><p>“其次，你太小了。”</p><p>陈露激动的直接从凌晓冬的怀里跳了出来，双手叉腰站在床上，忿忿道：</p><p>“我不小了！我都三百岁！”</p><p>凌晓冬撇了撇嘴，抬头看着站在床上比自己坐着也高不了多少的陈露。</p><p>“我是说你外貌太小了！与你做这种事情，我良心过不去！”</p><p>“为什么啊~”</p><p>陈露拉着凌晓冬胳膊摇来晃去。</p><p>但是凌晓冬不为所动，她表现的越是像一个小女孩，凌晓冬便越不可能答应她过分的要求。</p><p>“说了不行就是不行，你要是再胡搅蛮缠，我连这个和折中的方案都不允许了！”</p><p>陈露松开了凌晓冬的胳膊，她银牙紧咬，一脸认真的问道：</p><p>“外表太小？那我长大了就没问题了吧？”</p><p>凌晓冬愣了一下，又点了点头，“嗯，长大了就行。”</p><p>他原本也是不同意的，但是心想，既然陈露三百年来都没有一丝一毫变化，她还能一瞬间长大不成？</p><p>“好！既然哥哥你答应，那就不要言而无信！”</p><p>凌晓冬看着陈露认真的劲头，突然心里隐隐感觉有点不妙。</p><p>得到了哥哥的肯定答复后，陈露闭上了眼睛，站在床上一动不动。</p><p>正当凌晓冬正在疑惑时，他惊骇的发发现，陈露的身子正在变化。</p><p>原本带有一点婴儿肥的小脸变成了瘦削的瓜子脸，平坦的胸膛逐渐鼓起，四肢也变得修长纤细。</p><p>就连额头上那一根黑色的独角，也在跟着一起变长，奇妙的金色符文在那独角上浮现流动，尽显大道奥秘。</p><p>最显眼的还是她那花纹繁复的黑裙，此时竟然正在逐渐变成赤红色的旗袍，那薄薄的布料贴熨着陈露变得傲人无比的身材，合适的就像是量身定做的一般。</p><p>凌晓冬目瞪口呆的看着陈露的一番变化，突然反应了过来。</p><p>不对！</p><p>这不是池鱼吗？</p><p>怎么又被放出来了！</p><p>他刚想出手，但是又停了下来，皱眉看着眼前正在不断成长的池鱼化的陈露。</p><p>此时的池鱼身上并没有出现上次那种洪荒猛兽般的威压，身上的气质与陈露没有任何区别。</p><p>她睁开了纤长的双眸，眼中不是猩红的细线蛇瞳，而是与陈露一般无二的宝石绿瞳。</p><p>眼前的这个女子不是池鱼，这只是陈露单纯长大的样子而已！</p><p>凌晓冬指着陈露，不可置信道：“这......这是怎么回事！”</p><p>陈露没有回应，而是一推凌晓冬的肩膀，让他重新躺回了床上。</p><p>她就像一只正在捕猎的母狮，四肢趴伏在床上，朝着凌晓冬爬去。</p><p>陈露眼睛中满是玩味之色。</p><p>“池鱼？不对，你是陈露！”</p><p>陈露伸出粉嫩小舌舔了舔艳红的娇唇，“哥哥，陈露长大了哦！”</p><p>“你...你这是怎么做到的！”</p><p>“不过是借妹妹的身子用一下而已，我会还给她的。”</p><p>“我在这个形态保持的时间有限，哥哥，事不宜迟！”</p><p>“嘶~你等等！”</p><p>凌晓冬刚想叫停，但是陈露含糊道：“哥哥答应我的！”</p><p>就这一句话，又让他重新躺了回去。</p><p>这不能怪他！</p><p>谁知道陈露能随地大小变！</p><p>抗拒，接受，享受。</p><p>抛去了最后心理障碍的凌晓冬的心态变得极快无比。</p><p>既然外表都已经这么成熟，那应该没问题.....吧？</p><p>况且这岁数都够当自己的祖宗了，可是足足比他大了三百岁！</p><p>要说年纪小，凌晓冬反而才显得像是儿童。</p><p>他自己就这么在心里安慰着自己。</p><p>陈露睁着眼睛向上仰视着凌晓冬，口中含糊道：“哥哥，摸摸我！”</p><p>凌晓冬伸手按住了陈露的脑袋，轻轻抚摸着她丝绸般光滑的秀发，陈露享受的眯起了眼睛。</p><p>正当陈露全神贯注的进食时，凌晓冬发现了不对。</p><p>陈露的身子正在重新变小！</p><p>“停停停！”</p><p>但是已经到了关键时候的陈露怎么可能放弃！</p><p>凌晓冬带着无比的负罪感，发出了低沉的吼声。</p><p>删减版免费。</p><br></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>
