@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>少年阿宾 漫画-黄色导航</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到少年阿宾 漫画</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于少年阿宾 漫画</h2>
+<p>少年阿宾 漫画<p>京城，摘星楼。</p><p>白衣白发的国师三百年如一日地坐在楼顶，五心朝天，盘腿打坐，坐镇帝都龙脉。</p><p>据说，只要摘星楼一日不倒，大周便一日不亡。</p><p>国师李希夷透过蒙在眼前的白色丝带俯瞰着世间忙碌的芸芸众生，日子一日复一日，枯燥无聊的很。</p><p>正当她估算着自己的下尸是否已经赶到当年种下的仙胎身边时，一声脆生生的女童声音传来，打断了她的思考。</p><p>“国师大人，皇帝陛下求见。”</p><p>李希夷柳眉微蹙，脸上稍许有些厌烦之色。</p><p>她一挥手，对着那道童道：</p><p>“不见。”</p><p>“国师为什么就不愿意见寡人呢？”</p><p>苍老无比的声音自李希夷身后响起。</p><p>身穿明黄色龙袍的姬元武一步步踏上阶梯，来到了摘星楼的顶楼。</p><p>他太老了。</p><p>脸上的皮肤都已经松垮，到处都是老年斑，头顶的头发都已经脱得没有多少，只留下些许苍白的枯发像是野草一样贴在头皮。</p><p>整个人的身子都弯着，要不是手里的龙头拐杖支撑，恐怕早就摔倒在了地上。</p><p>虽然来的是大周的皇帝，但是李希夷没有起身相迎，她就这么背对着姬元武，连头也不曾回一下。</p><p>姬元武也不觉得有什么不对。</p><p>他曾经见过有人对国师出言不逊的下场，那个人就是自己的兄长。</p><p>本该被父皇给予了重望的太子，大周的储君，绝对的天潢贵胄。</p><p>就因为一句调笑之言，直接当场被剥了蟒袍，杖责一百，就像是扔死狗一般被丢出了宫门，世世代代，永世沦为贱籍。</p><p>要不是皇兄那一句玩笑之言，恐怕还轮不到自己做大周的皇帝。</p><p>“为什么不愿意见你？因为你要的东西，我给不了，你走吧。”</p><p>李希夷丝毫不把姬元武放在眼里，直接给他下了逐客令。</p><p>姬元武并没有离去，他死死盯着李希夷的背影，丢去拐杖，扑通一声跪在地上。</p><p>苍老的头颅抵在地上，面露狂热。</p><p>“怎么会给不了我呢？国师，在我幼年时见你，你是这般模样，在我中年时见你，你还是这般模样，如今我老的快死了，你还是这样年轻，国师，你肯定有长生不老的法子，求国师教我，我愿意付出一切！”</p><p>长生不老，所有帝王的梦想。</p><p>姬元武在壮年时也对那些为了寻求长生，耗费举国财力，昏庸无道的皇帝们嗤之以鼻。</p><p>但是当他的头发开始脱落，当他的牙齿开始摇晃，当他的眼神变得昏花，当他拿起筷子的手开始抖动时。</p><p>他怕了。</p><p>生死之间，有大恐怖。</p><p>他已经疯了，当他在名贵龙榻上安详入眠，突然感觉下身一片温热潮湿和腥臭时，他就已经疯了。</p><p>哪怕他是皇帝又如何？</p><p>他能掌控天下官员的升迁，他能掌控天下百姓的死活。</p><p>整个天下一切都在他的掌控之下，但是他却控制不住自己的下身。</p><p>在他尿床的那一晚，殿内所有的宫女与太监全被砍下了脑袋。</p><p>姬元武连夜爬上了摘星楼，对着国师磕头跪拜了数个时辰，但国师始终没有同意，最终他因为体力不支昏死过去。</p><p>“给不了就是给不了，我要是能赐你长生，她也不用死了。”</p><p>李希夷不耐烦地一挥手，一股清风吹来，裹挟这姬元武，直接将他送回了皇宫。</p><p>她被白布蒙着的双眼望向远方，透过无穷无尽的时光长河，一直看向了三百年前。</p><p>李希夷喃喃道：“小七，你要是看到你的儿孙都是这个样子，恐怕也会失望吧。”</p><p>三百年前，当自己从八卦突破到九宫的时候，仇家在自己抵抗天雷最虚弱的时候出手袭击。</p><p>虽然那仇人当场被反杀，但是自己也身受重伤，无力支撑在空中飞行，直接落到了一座城中。</p><p>当李希夷醒来时，只觉得浑身剧痛难忍，身子既滚烫，又冰冷，全身上下一点法力也使不出来。</p><p>她用胳膊撑地坐起，环顾四周，发现自己身在一座破庙中。</p><p>浑身的衣服都湿漉漉的，身边燃着一堆小小的篝火。</p><p>屋子外面，是倾盆的大雨。</p><p>“你醒了？”</p><p>陌生的声音从耳边响起，李希夷一惊，连忙向一旁看去。</p><p>一个浑身脏兮兮的瘦弱小乞丐抱膝坐在角落里，虽然脸很脏，但是那一双大眼却极为清澈明亮，听方才的声音，像是一个小女孩。</p><p>“是你救了我？”</p><p>“嗯，我看到姐姐从天上掉了下来，就躺在街上，一动不动，外面的雨这么大，你一直躺在外面会死的，我就把你捡了回来。”</p><p>“你叫什么？”</p><p>“我没有名字，但是丐帮里的人都叫我小七。”</p><p>“哦？为什么？”</p><p>“没有为什么，大家都是这么叫的，还有人叫狗子，铁蛋，他们也不知道自己为什么要叫这么名字，但是大家都叫熟了，也就成了名字。”</p><p>两人之间沉默了一会，小七突然开口问道：</p><p>“姐姐，你从天上掉下来，又这么漂亮，是不是仙人啊？”</p><p>“仙人啊，我现在还不是。”</p><p>“那以后就是了吗？”</p><p>“以后？以后可能是吧。”</p><p>“哇！姐姐好厉害！”</p><p>就在小七夸赞不绝时，李希夷的肚子咕咕咕的响了起来。</p><p>她面色一红，自己已经辟谷多少年了，如今没了法力，肚中再次传来了陌生的饥饿感。</p><p>“姐姐你饿了吗？你等着。”</p><p>那个衣衫褴褛的小乞丐跑进了漆黑的大雨中。</p><p>“哎！等一下。”</p><p>李希夷刚想阻止，小七就已经跑的没影了。</p><p>过了许久，她才步履蹒跚的回来，怀中裹着什么东西，但是脸上胳膊上，却比出发前多了点淤青。</p><p>她像是邀功一般展开了自己衣服的下摆，里面有四个不大的馒头，看起来都有些生冷发硬。</p><p>“这是......”</p><p>小七将四个馒头全放在李希夷手上。</p><p>“神仙姐姐，吃吧。”</p><p>李希夷赶紧推了回去。</p><p>“这我不能收下。”</p><p>两人推搡的一番，小七才肯拿了一个馒头。</p><p>这些馒头不大，而且李希夷已经饿的发晕，几口就把三个馒头吃下了肚。</p><p>吃了点东西，她也稍微恢复了点体力与法术，心情也缓和了下来。</p><p>她望着捧着馒头小心翼翼吃着的小七。</p><p>突然问道：</p><p>“你有什么愿望吗？”</p><p>无论是什么金银珠宝她都可以变出，给这个小乞丐一生荣华富贵不是难事。</p><p>小七眨巴着清澈的大眼，反问道：</p><p>“愿望？”</p><p>“嗯，你有什么愿望？”</p><p>她突然羞涩地一笑，扭捏道：</p><p>“我说出来姐姐你可别笑我。”</p><p>“嗯，我肯定不笑。”</p><p>小七正了正脸色，认真道：</p><p>“我希望天下所有的人都能吃饱饭，有屋子住，有衣服穿，不要像我一样，连父母都不知道是谁，每天吃了上顿没下顿，到处被人赶来赶去。”</p><p>李希夷一愣，她会实在没有想到一个小乞丐能有这样宏达的愿望。</p><p>“哎呀，这可真是麻烦的愿望呢。”</p><p>她顿了顿，面带微笑地看向小七。</p><p>“小七，你想不想做皇帝？”</p><p>“皇帝！我吗？怎么可能！我连个名字都没有。”</p><p>“没有可以起呀，小七，小七，那你就姓姬好吗？”</p><p>“可我身上连一个铜板都没，怎么当啊？”</p><p>“不是还有我吗？既然我今日吃了你三个馒头，那我便许诺你三百年王朝不倒！”</p><p>这便是大周开国皇帝与国师相遇的故事，至今仍然在大周脍炙人口，广为流传。</p><p>她们相遇的日子，也被大周史书重点记载。</p><p>每当到了那一天，皇宫中就禁止奢华的饮食，只能吃白馒头充饥，名曰忆苦思甜。</p><p>后来流传到民间，也就便成了特殊的节日。</p></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>沈娜娜纤纤-御用导航</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到沈娜娜纤纤</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于沈娜娜纤纤</h2>
+<p>沈娜娜纤纤<p>勇者离开，剩下两只魔物娘面面相觑。</p><p>最后还是由更活泼一点点的猫娘小姐来打破这尴尬的沉默：</p><p>“勇者都这么敬业的吗？外面天都没亮。”</p><p>维耶娅摇头，她面色如常，心中却长叹了口气。</p><p>以前练习一会儿剑术就会找她撒娇讨饶，喜欢摸鱼看话本的小女孩，如今也长大了。</p><p>“赫尔凯特，你答应我的事做到了吗？”</p><p>“嗯…哪件事？”</p><p>黑发红眸的猫娘明显一愣，眨了眨灵动漂亮的眼眸，旋即想起什么似看着三无萝莉干笑道：</p><p>“哈哈，你放心啦！不像你们人类，咱说话可是说到做到的！既然咱答应了你，在驱使咱的宠物进城找食物前要告诉你，那咱就一定会告诉你！”</p><p>赫尔凯特拍着自己微微隆起的胸口承诺，令人迷醉的漂亮酒红色眼眸里满是认真。</p><p>她好像真的挺郑重。</p><p>那我是不是也该对她好点。</p><p>维耶娅心软半秒钟，很快又把心硬起来，同样的亏吃一次就行。</p><p>她维耶娅并非是那种会在同一类坑里摔两次的大笨蛋。</p><p>“那…赫尔凯特。”维耶娅斟酌着开口。</p><p>“怎么了喵？”</p><p>“身为大恶魔的你为什么愿意和我签订不对等条约？”</p><p>“是交换，你要教咱饲养人类喵。”</p><p>“仅此而已？”</p><p>“当然啦。”赫尔凯特晃了晃自己毛呼呼的黑色尾巴，犹豫道，“如果你觉得亏了的话，咱可以把尾巴借你摸摸～”</p><p>说到后面，小猫娘莫名其妙的嘚瑟起来，“手感超软超棒的喵。咱可没借其他活物摸过，你就感恩戴德吧！”</p><p>“…”</p><p>明明是顶着-800，判定达到极恶的正义值，现在表现得却和功夫熊猫里的神龙大侠一样滑稽心大。</p><p>维耶娅想说点什么，又发现无话可说。</p><p>没去理会那试图用尾巴勾引她的赫尔凯特，维耶娅从一旁的衣柜里寻找适合她的衣服。</p><p>大大的白桦木柜里，符合她体型的衣物居然藏了不少，有天真幼稚风格的裙子，有简易耐看的常服，也有优雅端庄的礼服…甚至按她的要求，各种颜色款式的风衣也准备了不少。</p><p>“人情真好用啊…要是能反复使用就好了。”</p><p>维耶娅想了想，给自己选了一件简单好穿的纯黑色大风衣。</p><p>其他的一些衣服裙子，穿起来实在是麻烦，不如大风衣一根毛。</p><p>往身上一披一套，哪怕风衣尺寸大了点也一点影响没有。</p><p>适合她。</p><p>维耶娅在心底给自己比了个OK，对另一边偷偷摸摸不知道在干什么的猫娘提醒道：</p><p>“等天亮后，记得去帮我把我在猎刀酒馆二楼那间房里的东西搬过来。”</p><p>“咳咳！”</p><p>偷喝茶水的赫尔凯特吐了吐被烫到的粉舌头，结结巴巴问道：“你这么晚还要出去嘛。刚才那条勇者还让你晚上别出去浪…”</p><p>“…”</p><p>见维耶娅头也不回的离开，赫尔凯特连忙放下手里杯子。</p><p>“欸！你等等咱，咱也要去，喵！”</p><p>是夜。</p><p>月明星稀，寒风萧瑟。</p><p>维耶娅站在高处，兜帽遮住她的精致面容，风衣猎猎作响。</p><p>这座人族边境处的城镇，房屋道路规划工整，布局严明。</p><p>为了防止魔物突破外围城墙后长驱直入，中间设立了两处高墙作为隔离缓冲。</p><p>这两处高墙也顺势将整个城镇分割成了三块，核心区，商业区，平民区。</p><p>平民区和商业区之间的是第一高墙，也是维耶娅目前在的高墙。</p><p>利用黑夜和自己体型小的优势，维耶娅轻易避开那些高墙上负责巡逻的护城卫兵。</p><p>赫尔凯特自然更不用担心了，只要她愿意，她站在卫兵面前给卫兵脸上画乌龟，都不会被人发现。</p><p>“喵喵，原来你也有当游侠的梦想。”</p><p>月光下，赫尔凯特伸着懒腰，猩红的眼眸搜罗下方城镇。</p><p>突然，她像发现什么大秘密一般挺住动作，虚掩红润小嘴，恍然大悟：</p><p>“原来你是想看那紫毛丫头干什么去了吗？呵呵，是担心她受伤吗？喵？”</p><p>赫尔凯特小幅度回过头，露出纯净美好的侧颜，金红的眼眸满是好奇：</p><p>“你，是不是对这勇者关心过头了？”</p><p>“与你无关。”</p><p>维耶娅屈膝，从高墙上轻巧跃下，仿若一只矫健的夜枭。</p><p>有点小生气的猫娘轻哼一声，一脚把脚边的碎石头踢飞。</p><p>咻！</p><p>砰！</p><p>巡逻的卫兵摸了摸头盔，又看了眼身后，一片漆黑的高墙只有星星点点的火把带来的光亮。</p><p>“兰奇，跟上队伍！”</p><p>前方传来领队的呵声。</p><p>“啊来了，来了。”</p><p>今晚的风儿，甚是喧嚣。</p></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>

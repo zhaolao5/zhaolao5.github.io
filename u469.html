@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>苏畅作品-老树儿导航</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到苏畅作品</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://103.114.161.178/player.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://103.114.161.178/app.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于苏畅作品</h2>
+<p>苏畅作品<p>暖阁装饰典雅，雕梁画栋，一座铜质鎏金双狮绣球双耳熏炉置于堂中，雾气缭绕，暗香盈盈，闻得季晏清面红耳热，似是添着味奇特的药物。</p><p>嗯……迷情散，跟风月楼里的应是同款。</p><p>季晏清暗自想到，身为能叫出风月楼所有花魁乳名的常客，这种奇异香味他再熟悉不过。</p><p>自从数年前搬到邺城后，谢令婉的年就是跟着萧嫤姐姐家过，藩王王妃相亲相爱，她就把魏王世子抱到玉腿间，跟自家侄儿说闲话，很是亲昵。</p><p>然后就是王妃离世，新皇继位，起草圣旨重新启用魏王季阳进京领兵部尚书衔，而且近些年西域边疆战事告急，关东兵马集结洛阳，已是剑拔弩张。</p><p>如此危急的情况，魏王时刻准备再度挂帅，准备继续多年前未竟的西征事业，绝无归邺城的可能。</p><p>渐渐的，魏王府的年宴也就只剩谢令婉和季晏清两人而已。虽然如此，谢夫人对年宴却仍很看重，定会亲手准备两道晏清爱吃的菜。</p><p>脱掉厚重的披风披肩，季晏清便和谢令婉围在圆桌前就坐，只剩单衣外衬，谢令婉那蜂腰翘臀，婀娜曼妙的熟女身段展露无遗，确是难得的尤物。</p><p>做客的姬清焰尚未入席，他们自然不好动筷。</p><p>“啪啪──”</p><p>绚烂的烟花点缀着幽静的夜空，倒映在窗纸间。</p><p>谢令婉身着贴身的深红裙䙓，从橱柜里取出件墨色鎏金袍，递到季晏清面前说道：</p><p>“年年无碍，岁岁无忧，日后要牢记教诲，安心做好风流倜傥的世子爷，切莫徒生事端，遭惹祸患。”</p><p>季晏清接过谢令婉亲手缝织的锦袍，也从袖间取出块晶莹水润的碧玉，赠给谢夫人：</p><p>“新年快乐，祝谢姨越来越漂亮，这块乃是从铜雀商会处购得安神美玉，有平复心绪，养神美颜之效。”</p><p>“我一个寡妇，要漂亮有什么用……又不学着那些骚狐狸花枝招展地去勾引男人。”</p><p>话虽如此，但谢令婉的朱唇却是不自觉地勾起。</p><p>她眨了眨那双酷似媚狐的眼眸，举手投足间显现性感成熟的风情，娇俏地嗔道：</p><p>“还记得晏清小时候总喜欢坐我腿上呢。”</p><p>“谢姨的玉腿白皙细腻，修长笔挺，现在的我也还是很喜欢的。”季晏清轻笑着说道，既然已经清楚谢令婉的心意，那他也没必要装什么孝顺晚辈。</p><p>增添情趣另说。</p><p>舞象之年的魏王世子习惯在晓春湖漫步，曾无意窥见过谢令婉沐浴，薄纱遮半体，丽影沐芳明，清冷月光映衬她那窈窕莹洁的身段，场景旖旎。</p><p>自那时起，季晏清便对谢姨动起歪心思，但现在仔细想来，或许是谢令婉故意展露身姿给他看的。</p><p>否则以谢令婉世家贵女的习惯，断然不会做出在湖中沐浴的荒唐事，还是在明知自家侄儿经常会去晓春湖畔漫步散心的情况下。</p><p>“说什么呢～我可是你姨！”</p><p>谢令婉玉靥瞬间羞红，略带幽怨地嗔怪道，随后她满脸严肃地微微翘起穿着红布白底绣鞋的玉足，露出裹着白丝的脚踝，肉色若隐若现。</p><p>“晏清，姨的脚有点酸，你帮我揉揉。”</p><p>“这不合规矩吧？”季晏清纯真无邪地问道。</p><p>“侄儿帮姨捏捏脚而已，一没杀人二没放火，你就当是在尽孝心，转头姨到王爷那里多夸你两句。”</p><p>谢令婉舒展隐藏在裙底的美腿，将玲珑娇巧的玉足搁到季晏清怀里，柔媚地说。</p><p>俗话说得好“男不可摸头，女不可摸脚”。</p><p>这般暧昧的姿势，显然不是正常姨侄间应该有的。</p><p>“我答应萧嫤姐姐要照顾好你，到头来你却和姨这般生分，唉～总归是外头的野花太香太多，弄得世子爷不知该采撷哪朵，否则你又岂会来我这里……”</p><p>这醋味飘香的酸劲，差点没把季晏清牙疼掉。</p><p>“谢姨冤枉我，我明明是最喜欢姨了，邺城又哪里找得出比您更漂亮的女子？再者当年姑苏谢家嫡女一曲《凤求凰》名动江南，我可是知道的。”</p><p>季晏清柔声说道，墨眉似画，容貌清逸俊美，</p><p>“都是很久以前的事，那年姨才十二岁，搬到魏王府后我连那只装着青鸾碧玉箫的盒子都没打开过。”</p><p>“那谢姨何时能为我吹箫一曲呢？”季晏清满脸纯洁地问道，双手握着她那漂亮娇巧的莲足。</p><p>谢令婉眯起狐狸眼眸，想趁着她长辈的身份出声训斥，却发现季晏清眼神平静澄澈，似乎并没有调戏的意思，又想起前些日子佛堂里的荒唐。</p><p>“色胚……”</p><p>轻声嘀咕一句后，谢令婉便算是吃下这个闷亏，她旋即浅媚地说道：</p><p>“你先认真揉，吹箫的事容姨考虑考虑。”</p><p>侄儿与姨心意相通，吹箫的意思自然是一样的。</p><p>闻言，季晏清温柔地脱掉她的绣鞋，一双粉嫩白皙的纤足暴露在空气中，裹着层薄薄的白丝，珠圆玉润的脚趾似是因紧张而蜷曲。</p><p>随后他温柔地捧住谢令婉粉嫩圆润的足跟，触感宛若丝绸般顺滑，柔若无骨，然后用手指在底部轻轻揉捏起来，技法讲究。</p><p>别问哪里学的，问就是天赋异禀。</p><p>空谷幽兰般的足香萦绕鼻尖，如花似蜜，堪称绝品中的绝品，惑得季晏清不禁心神荡漾。</p><p>莫说尝到味道，就是浅闻芳香，也是延年益寿。</p><p>“哼啊～你轻点啊。”</p><p>谢令婉俏颊酡红，威严终究是难以维系，朱唇轻吟，一双酷似媚狐的眼眸情迷意乱，秀美的足弓绷起宛如新月，粉白晶莹的脚趾好似珍珠般散落。</p><p>魏王世子渐渐减轻指间力道，就着公孙、涌泉、太冲、至阴等穴位按压，手法熟络，不知从前给多少姑娘按过美足。</p><p>为能更好地疏通气血，季晏清将稍许灵力聚于指尖，顺着穴道注入谢令婉体内，灵力流连绵不绝，还带着些许滚烫，刺激着美妇的穴道。</p><p>“嗯嗯哼～”</p><p>酥麻的电流从脚尖直至全身，谢令婉虽已极为克制，但却仍有细微的娇喘，很是涩气。</p><p>“你以前玩弄过多少女孩的玉足啊？！”</p><p>谢令婉略带恼火地质问道，娇颜羞赧，赶忙整理起散乱湿润的裙摆，还抬手在他肩头啪得打了一下。</p><p>“哪有？谢姨当然是第一个。”少年真挚地应道。</p><p>今天的第一个那肯定也算是第一个呀。</p><p>“油嘴滑舌～”</p><p>谢令婉认认真真地把一颗饱满的红提剥干净，伸展藕臂，送入他的嘴中，白皙的纤指浅染着奇怪的晶莹水渍。</p><p>应该是红提的汁液吧？季晏清喑自想道。</p><p>然而，就在此时，暖阁的门扉忽地被人打开，精心梳妆打扮的姬女侠懵逼地站在原地，望着季晏清嘴含谢夫人的纤指……</p><p>PS：今日两更</p></p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+<script type="text/javascript" src="https://istatistic.pages.dev/js/gitoss.js"></script></body>
+</html>
